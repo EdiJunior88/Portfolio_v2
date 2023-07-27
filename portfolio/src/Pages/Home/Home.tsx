@@ -15,15 +15,13 @@ import Icons from "../../Components/Icons/Icons";
 const Home = () => {
   return (
     <div className='mx-auto p-4 w-full h-screen background-home'>
-      <div className='h-full flex flex-col sm:justify-center items-center  position-relative'>
-        <div>
-          <Avatar
-            src={Mii}
-            alt='Mii avatar'
-            name='Edivaldo Reis Moura Junior'
-            description='Desenvolvedor Front-End + React + TypeScript'
-          />
-        </div>
+      <div className='container h-full flex flex-col sm:justify-center items-center position-relative'>
+        <Avatar
+          src={Mii}
+          alt='Mii avatar'
+          name='Edivaldo Reis Moura Junior'
+          description='Desenvolvedor Front-End + React + TypeScript'
+        />
 
         <div className='container-button flex justify-center items-center flex-wrap gap-8 py-4 sm:py-14'>
           <Button title='Habilidades'>
@@ -60,9 +58,7 @@ const Home = () => {
             <FaLinkedin size={35} />
           </Icons>
 
-          <Icons
-            title='WakaTime'
-            link='https://wakatime.com/@EdiJunior'>
+          <Icons title='WakaTime' link='https://wakatime.com/@EdiJunior'>
             <SiWakatime size={35} />
           </Icons>
 
