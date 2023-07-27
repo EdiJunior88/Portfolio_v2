@@ -5,8 +5,8 @@ import Mii from "../../assets/Image/Mii-transparente.webp";
 
 const Home = () => {
   return (
-    <div className='mx-auto w-full h-full p-4 background-home flex justify-center items-center'>
-      <div className='container'>
+    <div className='mx-auto w-full h-screen background-home flex justify-center items-center '>
+      <div className='container h-auto px-4'>
         <div className='w-full flex justify-center items-center'>
           <Avatar
             src={Mii}

@@ -9,7 +9,7 @@ const Avatar = ({ src, alt, name, description }: InterfaceAvatar) => {
 
       <div className='bg-white w-96 mx-4 rounded-lg shadow-lg flex flex-col justify-center gap-2 items-center title-avatar '>
         <p className='sm:text-2xl font-bold'>{name}</p>
-        <p className='sm:text-sm text-[9px] text-gray-500'>{description}</p>
+        <p className='sm:text-sm text-[10px] text-gray-500'>{description}</p>
       </div>
     </div>
   );
