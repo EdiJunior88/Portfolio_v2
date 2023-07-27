@@ -16,7 +16,7 @@ const Home = () => {
           />
         </div>
 
-        <div className='container flex flex-wrap justify-center gap-10 pt-10'>
+        <div className='container flex flex-wrap justify-center gap-10 py-10'>
           <Button title='Habilidades'>
             <FcServices size={100} />
           </Button>
