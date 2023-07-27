@@ -21,3 +21,15 @@
   -webkit-backdrop-filter: blur(6.4px);
   border: 1px solid rgb(190, 190, 190);
 }
+
+.background-button {
+  background: url("./assets/Background/background-button.webp") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.background-home {
+  background: url("./assets/Background/background-home.webp") no-repeat center
+    center;
+  background-size: cover;
+}

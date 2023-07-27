@@ -2,12 +2,8 @@ import { InterfaceAvatar } from "../../Interface/Interface";
 
 const Avatar = ({ src, alt }: InterfaceAvatar) => {
   return (
-    <div className='image-glass-shadow'>
-      <img
-        className='rounded-3xl w-28 h-auto image-glass'
-        src={src}
-        alt={alt}
-      />
+    <div className='background-button rounded-lg'>
+      <img className='w-28 h-auto py-4' src={src} alt={alt} />
     </div>
   );
 };
