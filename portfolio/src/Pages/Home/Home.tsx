@@ -5,9 +5,9 @@ import Mii from "../../assets/Image/Mii-transparente.webp";
 
 const Home = () => {
   return (
-    <div className='mx-auto w-full h-full sm:h-screen background-home flex justify-center items-center py-4'>
-      <div className='container h-screen sm:h-auto px-4'>
-        <div className='w-full flex justify-center items-center'>
+    <div className='mx-auto p-4 w-full h-screen background-home'>
+      <div className='h-full flex flex-col sm:justify-center items-center  position-relative'>
+        <div>
           <Avatar
             src={Mii}
             alt='Mii avatar'
@@ -16,7 +16,7 @@ const Home = () => {
           />
         </div>
 
-        <div className='container flex flex-wrap justify-center gap-10 py-10'>
+        <div className='container-button flex justify-center items-center flex-wrap gap-8 py-4 sm:py-14'>
           <Button title='Habilidades'>
             <FcServices size={100} />
           </Button>
