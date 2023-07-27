@@ -29,7 +29,22 @@
 }
 
 .background-home {
-  background: url("./assets/Background/background-home.webp") no-repeat center
+  position: relative;
+}
+
+.background-home::before {
+  content: "";
+  background: url("./assets/Background/background-home-mii-maker.webp") no-repeat center
     center;
   background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.45;
+}
+
+.container {
+  position: relative;
 }
