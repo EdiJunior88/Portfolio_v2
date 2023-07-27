@@ -5,21 +5,30 @@ import Mii from "../../assets/Image/Mii-transparente.webp";
 
 const Home = () => {
   return (
-    <div className="mx-auto w-full h-screen p-4 background-home">
+    <div className='mx-auto w-full h-screen p-4 background-home flex items-center'>
       <div className='container'>
         <div className='w-full flex justify-center items-center'>
-          <Avatar src={Mii} alt='Mii avatar' />
+          <Avatar
+            src={Mii}
+            alt='Mii avatar'
+            name='Edivaldo Reis Moura Junior'
+            description='Desenvolvedor Front-End + React + TypeScript'
+          />
         </div>
-        <div className='container flex flex-wrap justify-center gap-10 pt-4'>
+
+        <div className='container flex flex-wrap justify-center gap-10 pt-10'>
           <Button title='Habilidades'>
             <FcServices size={100} />
           </Button>
+
           <Button title='Projetos'>
             <FcFlowChart size={100} />
           </Button>
+
           <Button title='Sobre Mim'>
             <FcBusinessman size={100} />
           </Button>
+
           <Button title='Tema'>
             <FcIdea size={100} />
           </Button>

@@ -2,26 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.image-glass {
-  /* From https://css.glass */
-  background: rgba(131, 129, 129, 0.29);
-  border-radius: 16px;
-  box-shadow: inset 0px 0px 20px 2px rgb(0 0 0 / 14%);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgb(180, 180, 180);
-}
-
-.image-glass-button {
-  /* From https://css.glass */
-  background: rgba(245, 245, 245, 0.66);
-  border-radius: 16px;
-  box-shadow: inset 0px 0px 20px 2px rgb(0 0 0 / 14%);
-  backdrop-filter: blur(6.4px);
-  -webkit-backdrop-filter: blur(6.4px);
-  border: 1px solid rgb(190, 190, 190);
-}
-
 .background-button {
   background: url("./assets/Background/background-button.webp") no-repeat center
     center;
@@ -34,8 +14,8 @@
 
 .background-home::before {
   content: "";
-  background: url("./assets/Background/background-home-mii-maker.webp") no-repeat center
-    center;
+  background: url("./assets/Background/background-home-mii-maker.webp")
+    no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -47,4 +27,24 @@
 
 .container {
   position: relative;
+}
+
+.title-avatar {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(221, 221, 221) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(221, 221, 221) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(221, 221, 221) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ebebeb",GradientType=1);
 }
