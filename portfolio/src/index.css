@@ -9,24 +9,10 @@
 }
 
 .background-home {
-  position: relative;
-}
-
-.background-home::before {
-  content: "";
-  background: url("./assets/Background/background-home-mii-maker.webp")
+  background: url("./assets/Background/SVG/background-mii-maker.svg")
     no-repeat center center;
   background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.45;
-}
-
-.position-relative {
-  position: relative;
+  position: fixed;
 }
 
 .title-avatar {
