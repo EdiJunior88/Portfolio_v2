@@ -15,7 +15,7 @@ import Icons from "../../Components/Icons/Icons";
 const Home = () => {
   return (
     <div className='mx-auto p-4 w-full h-screen background-home'>
-      <div className='w-full h-full flex flex-col justify-center items-center gap-8 sm:gap-20'>
+      <div className='w-full h-full flex flex-col justify-evenly sm:justify-center items-center gap-8 sm:gap-20'>
         <Avatar
           src={Mii}
           alt='Mii avatar'
