@@ -10,7 +10,6 @@ import {
 import {
   GoGitBranch,
   GoPersonAdd,
-  GoRepo,
   GoSun,
   GoTrophy,
 } from "react-icons/go";
@@ -30,7 +29,7 @@ const Home = () => {
 
   return (
     <div className={`mx-auto p-4 w-full h-full background-home ${theme}`}>
-      <div className='w-full h-full flex flex-col justify-evenly sm:justify-center items-center gap-12'>
+      <div className='w-full h-full flex flex-col justify-evenly sm:justify-center items-center gap-10 sm:gap-12'>
         <Avatar
           src={Mii}
           alt='Mii avatar'
