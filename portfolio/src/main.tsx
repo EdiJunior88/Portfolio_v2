@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Pages/Home/Home";
-import Ability from "./Pages/Ability/Ability";
+import Projects from "./Pages/Ability/Projects";
 
 const router = createBrowserRouter([
   {
@@ -10,8 +10,8 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/ability",
-    element: <Ability />,
+    path: "/projects",
+    element: <Projects />,
   },
 ]);
 

@@ -32,13 +32,13 @@ const Home = () => {
     );
   };
 
-  const changePageAbility = () => {
-    navigate("/ability");
+  const changePageProjects = () => {
+    navigate("/projects");
   };
 
   return (
-    <div className={`mx-auto p-4 w-full h-full background-home ${theme}`}>
-      <div className='w-full flex flex-col justify-evenly sm:justify-center items-center gap-10 sm:gap-12'>
+    <div className={`mx-auto w-full h-full background-home ${theme}`}>
+      <div className='w-full h-screen flex flex-col justify-evenly sm:justify-center items-center gap-10 sm:gap-12'>
         <Avatar
           src={Mii}
           alt='Mii avatar'
@@ -47,7 +47,7 @@ const Home = () => {
         />
 
         <div className='container-button flex justify-center items-center flex-wrap gap-8'>
-          <Button title='Habilidades' onClick={changePageAbility}>
+          <Button title='Habilidades' onClick={undefined}>
             {theme === "wiiu-theme" ? (
               <FcServices size={100} />
             ) : (
@@ -55,7 +55,7 @@ const Home = () => {
             )}
           </Button>
 
-          <Button title='Projetos' onClick={undefined}>
+          <Button title='Projetos' onClick={changePageProjects}>
             {theme === "wiiu-theme" ? (
               <FcFlowChart size={100} />
             ) : (
