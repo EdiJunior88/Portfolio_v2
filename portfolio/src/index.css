@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --cor-tema-switch-azul: #41a5a3;
+  --cor-tema-switch: #d8d8d8;
+  --cor-tema-switch-cinza-claro: #eeeeee;
+  --cor-tema-switch-cinza-escuro: #313131;
+}
+
 .background-button {
   background: url("./assets/Background/background-button.webp") no-repeat center
     center;
@@ -9,8 +16,8 @@
 }
 
 .background-home {
-  background: url("./assets/Background/SVG/background-mii-maker.svg")
-    no-repeat center center;
+  background: url("./assets/Background/SVG/background-mii-maker.svg") no-repeat
+    center center;
   background-size: cover;
   position: fixed;
 }
@@ -37,19 +44,53 @@
 
 /* Tema Nintendo Switch */
 .switch-theme {
-  background: #d8d8d8;
+  background: var(--cor-tema-switch);
   box-shadow: none;
 }
 
 .switch-theme .button {
-  background: #eeeeee;
-  color: #41a5a3;
+  background: var(--cor-tema-switch-cinza-claro);
+  color: var(--cor-tema-switch-azul);
+  box-shadow: none;
+}
+
+.switch-theme .icon-button svg {
+  fill: var(--cor-tema-switch-cinza-escuro);
 }
 
 .switch-theme .button:hover {
-  border: 2px solid #4abfbe;
+  border: 2px solid var(--cor-tema-switch-azul);
 }
 
 .switch-theme svg {
-  fill: #4abfbe;
+  fill: var(--cor-tema-switch-azul);
+}
+
+.switch-theme .icons span {
+  color: var(--cor-tema-switch-cinza-escuro);
+}
+
+.switch-theme .avatar {
+  background: var(--cor-tema-switch-cinza-claro);
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+.switch-theme .avatar-container-description {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.switch-theme .avatar-name {
+  color: var(--cor-tema-switch-azul);
+}
+
+.switch-theme .avatar-description {
+  color: var(--cor-tema-switch-cinza-escuro);
+}
+
+.horizontal-line {
+  border-top: 1px solid var(--cor-tema-switch-cinza-escuro);
+  width: 90%;
 }

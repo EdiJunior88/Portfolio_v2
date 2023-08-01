@@ -7,7 +7,7 @@ const Icons = ({ children, title, link }: InterfaceIcons) => {
         <button>
           <div className='icons flex flex-col justify-center items-center text-[10px] sm:text-base gap-2'>
             {children}
-            {title}
+            <span>{title}</span>
           </div>
         </button>
       </a>
