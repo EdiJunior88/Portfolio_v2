@@ -9,20 +9,20 @@
   --cor-tema-switch-cinza-escuro: #313131;
 }
 
+body {
+  background: url("./assets/Background/SVG/background-mii-maker.svg") no-repeat
+    center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .background-button {
   background: url("./assets/Background/background-button.webp") no-repeat center
     center;
   background-size: cover;
 }
 
-.background-home {
-  background: url("./assets/Background/SVG/background-mii-maker.svg") no-repeat
-    center center;
-  background-size: cover;
-  position: fixed;
-}
-
-.title-avatar {
+.background-shadow {
   background: rgb(255, 255, 255);
   background: -moz-linear-gradient(
     180deg,
@@ -46,6 +46,10 @@
 .switch-theme {
   background: var(--cor-tema-switch);
   box-shadow: none;
+}
+
+.switch-theme .background-shadow {
+  background: none;
 }
 
 .switch-theme .button {

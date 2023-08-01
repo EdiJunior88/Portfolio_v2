@@ -7,29 +7,38 @@ import {
   FaSquareGithub,
   FaSquareInstagram,
 } from "react-icons/fa6";
-import {
-  GoGitBranch,
-  GoPersonAdd,
-  GoSun,
-  GoTrophy,
-} from "react-icons/go";
+import { GoGitBranch, GoPersonAdd, GoSun, GoTrophy } from "react-icons/go";
 import Avatar from "../../Components/Avatar/Avatar";
 import Button from "../../Components/Button/Button";
 import Mii from "../../assets/Image/Mii-transparente.webp";
 import Icons from "../../Components/Icons/Icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const [theme, setTheme] = useState("wiiu-theme");
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") || "wiiu-theme"
+  );
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    document.body.classList.toggle("switch-theme", theme === "switch-theme");
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(theme === "wiiu-theme" ? "switch-theme" : "wiiu-theme");
-    console.log(theme);
+    setTheme((prevTheme) =>
+      prevTheme === "wiiu-theme" ? "switch-theme" : "wiiu-theme"
+    );
+  };
+
+  const changePageAbility = () => {
+    navigate("/ability");
   };
 
   return (
     <div className={`mx-auto p-4 w-full h-full background-home ${theme}`}>
-      <div className='w-full h-full flex flex-col justify-evenly sm:justify-center items-center gap-10 sm:gap-12'>
+      <div className='w-full flex flex-col justify-evenly sm:justify-center items-center gap-10 sm:gap-12'>
         <Avatar
           src={Mii}
           alt='Mii avatar'
@@ -38,7 +47,7 @@ const Home = () => {
         />
 
         <div className='container-button flex justify-center items-center flex-wrap gap-8'>
-          <Button title='Habilidades' onClick={undefined}>
+          <Button title='Habilidades' onClick={changePageAbility}>
             {theme === "wiiu-theme" ? (
               <FcServices size={100} />
             ) : (

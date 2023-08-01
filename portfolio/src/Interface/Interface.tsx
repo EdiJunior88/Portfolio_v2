@@ -15,5 +15,11 @@ export interface InterfaceButton {
 export interface InterfaceIcons {
   children: React.ReactNode;
   title: string;
-  link: string;
+  link?: string;
+}
+
+export interface InterfaceButtonAbility {
+  children: React.ReactNode;
+  text: string;
+  image: string;
 }
