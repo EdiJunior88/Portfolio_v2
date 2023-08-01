@@ -34,3 +34,22 @@
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ebebeb",GradientType=1);
 }
+
+/* Tema Nintendo Switch */
+.switch-theme {
+  background: #d8d8d8;
+  box-shadow: none;
+}
+
+.switch-theme .button {
+  background: #eeeeee;
+  color: #41a5a3;
+}
+
+.switch-theme .button:hover {
+  border: 2px solid #4abfbe;
+}
+
+.switch-theme svg {
+  fill: #4abfbe;
+}

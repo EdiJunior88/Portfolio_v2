@@ -11,10 +11,18 @@ import Avatar from "../../Components/Avatar/Avatar";
 import Button from "../../Components/Button/Button";
 import Mii from "../../assets/Image/Mii-transparente.webp";
 import Icons from "../../Components/Icons/Icons";
+import { useState } from "react";
 
 const Home = () => {
+  const [theme, setTheme] = useState("wiiu-theme");
+
+  const toggleTheme = () => {
+    setTheme(theme === "wiiu-theme" ? "switch-theme" : "wiiu-theme");
+    console.log(theme);
+  };
+
   return (
-    <div className='mx-auto p-4 w-full h-full background-home'>
+    <div className={`mx-auto p-4 w-full h-full background-home ${theme}`}>
       <div className='w-full h-full flex flex-col justify-evenly sm:justify-center items-center gap-8 sm:gap-20'>
         <Avatar
           src={Mii}
@@ -23,19 +31,19 @@ const Home = () => {
           description='Desenvolvedor Front-End + React + TypeScript'
         />
         <div className='container-button flex justify-center items-center flex-wrap gap-8'>
-          <Button title='Habilidades'>
+          <Button title='Habilidades' onClick={undefined}>
             <FcServices size={100} />
           </Button>
 
-          <Button title='Projetos'>
+          <Button title='Projetos' onClick={undefined}>
             <FcFlowChart size={100} />
           </Button>
 
-          <Button title='Sobre Mim'>
+          <Button title='Sobre Mim' onClick={undefined}>
             <FcBusinessman size={100} />
           </Button>
 
-          <Button title='Tema'>
+          <Button title='Tema' onClick={toggleTheme} theme={theme}>
             <FcIdea size={100} />
           </Button>
         </div>

@@ -8,6 +8,8 @@ export interface InterfaceAvatar {
 export interface InterfaceButton {
   title: string;
   children: React.ReactNode;
+  onClick?: () => void;
+  theme?: string;
 }
 
 export interface InterfaceIcons {
