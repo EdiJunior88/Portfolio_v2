@@ -7,19 +7,19 @@ export interface InterfaceAvatar {
 
 export interface InterfaceButton {
   title: string;
-  children: React.ReactNode;
+  children: Node;
   onClick?: () => void;
   theme?: string;
 }
 
 export interface InterfaceIcons {
-  children: React.ReactNode;
+  children: Node;
   title: string;
   link?: string;
 }
 
 export interface InterfaceButtonAbility {
-  children: React.ReactNode;
+  children: Node;
   text: string;
   image: string;
 }
