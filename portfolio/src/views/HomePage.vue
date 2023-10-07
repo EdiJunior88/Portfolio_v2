@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Avatar from '@/components/AvatarComponent.vue'
 import Mii from '@/assets/Image/Mii.webp'
+import ButtonDefault from '@/components/ButtonDefault.vue'
 </script>
 
 <template>
@@ -15,7 +16,12 @@ import Mii from '@/assets/Image/Mii.webp'
         description="Desenvolvedor Front-End + React + TypeScript"
       />
 
-      <div className="container-button flex justify-center items-center flex-wrap gap-8"></div>
+      <div className="container-button flex justify-center items-center flex-wrap gap-8">
+        <router-link to="/habilities">
+          <ButtonDefault title="Habilidades" />
+        </router-link>
+        <router-view />
+      </div>
     </div>
   </div>
 </template>
