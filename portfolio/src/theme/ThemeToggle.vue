@@ -4,8 +4,16 @@ import { useThemeStore } from './ThemeChange'
 
 const themeStore = useThemeStore()
 
+//Salva no localStorage o tema escolhido
 function toggleTheme() {
   themeStore.toggleSwitchTheme()
+  localStorage.setItem('theme', themeStore.Switch ? 'Switch' : 'WiiU')
+}
+
+//Recupera no localStorage o tema escolhido
+const savedTheme = localStorage.getItem('theme')
+if (savedTheme) {
+  themeStore.Switch = savedTheme === 'Switch'
 }
 </script>
 

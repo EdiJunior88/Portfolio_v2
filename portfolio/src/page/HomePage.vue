@@ -62,6 +62,8 @@ const themeStore = useThemeStore()
 }
 
 .WiiU {
-  background: url('../assets//Background/background-home-mii-maker.webp') no-repeat center center;
+  background: url('../assets/Background/SVG/background-mii-maker.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 </style>
