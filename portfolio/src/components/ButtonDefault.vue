@@ -8,7 +8,7 @@ defineProps(['theme', 'onClick', 'children', 'title'])
     @click="onClick"
   >
     <div className="icon-button flex flex-col justify-center items-center gap-4">
-      {{ children }}
+      <slot></slot>
       <p className="font-medium text-sm sm:text-lg">{{ title }}</p>
     </div>
   </button>

@@ -5,10 +5,19 @@ import { useThemeStore } from './ThemeChange'
 const themeStore = useThemeStore()
 
 function toggleTheme() {
-  themeStore.toggleDarkMode()
+  themeStore.toggleSwitchTheme()
 }
 </script>
 
 <template>
-  <ButtonDefault @click="toggleTheme" title="Tema" />
+  <div v-if="themeStore.Switch">
+    <ButtonDefault @click="toggleTheme" title="Tema">
+      <v-icon name="oi-gear" scale="6" />
+    </ButtonDefault>
+  </div>
+  <div v-else>
+    <ButtonDefault @click="toggleTheme" title="Tema">
+      <v-icon name="fc-services" scale="6" />
+    </ButtonDefault>
+  </div>
 </template>

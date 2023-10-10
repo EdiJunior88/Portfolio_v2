@@ -10,8 +10,8 @@ const themeStore = useThemeStore()
 </script>
 
 <template>
-  <div :class="{ dark: themeStore.darkMode }">
-    <div class="mx-auto w-full h-full background-home">
+  <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
+    <div class="mx-auto w-full h-full">
       <div
         class="w-full h-screen flex flex-col justify-evenly sm:justify-center items-center gap-10 sm:gap-12"
       >
@@ -21,13 +21,32 @@ const themeStore = useThemeStore()
           name="Edivaldo Reis Moura Junior"
           description="Desenvolvedor Front-End + React + TypeScript"
         />
-        <div class="container-button flex justify-center items-center flex-wrap gap-8">
+        <div class="flex justify-center items-center flex-wrap gap-8">
           <ThemeToggle />
           <RouterLink to="/">
-            <ButtonDefault title="Home"></ButtonDefault>
+            <div v-if="themeStore.Switch">
+              <ButtonDefault title="Home">
+                <v-icon name="oi-home" scale="6" />
+              </ButtonDefault>
+            </div>
+            <div v-else>
+              <ButtonDefault title="Home">
+                <v-icon name="fc-home" scale="6" />
+              </ButtonDefault>
+            </div>
           </RouterLink>
+
           <RouterLink to="/habilities">
-            <ButtonDefault title="Habilidades"></ButtonDefault>
+            <div v-if="themeStore.Switch">
+              <ButtonDefault title="Habilidades">
+                <v-icon name="oi-trophy" scale="6" />
+              </ButtonDefault>
+            </div>
+            <div v-else>
+              <ButtonDefault title="Habilidades">
+                <v-icon name="fc-combo-chart" scale="6" />
+              </ButtonDefault>
+            </div>
           </RouterLink>
           <RouterView />
         </div>
@@ -37,8 +56,12 @@ const themeStore = useThemeStore()
 </template>
 
 <style scoped>
-.dark {
-  background-color: black;
-  color: white;
+.Switch {
+  background: #d8d8d8;
+  box-shadow: none;
+}
+
+.WiiU {
+  background: url('../assets//Background/background-home-mii-maker.webp') no-repeat center center;
 }
 </style>
