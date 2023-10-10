@@ -21,8 +21,10 @@ const themeStore = useThemeStore()
           name="Edivaldo Reis Moura Junior"
           description="Desenvolvedor Front-End + React + TypeScript"
         />
+
         <div class="flex justify-center items-center flex-wrap gap-8">
           <ThemeToggle />
+
           <RouterLink to="/">
             <div v-if="themeStore.Switch">
               <ButtonDefault title="Home">
@@ -36,10 +38,10 @@ const themeStore = useThemeStore()
             </div>
           </RouterLink>
 
-          <RouterLink to="/habilities">
+          <RouterLink to="/habilidades">
             <div v-if="themeStore.Switch">
               <ButtonDefault title="Habilidades">
-                <v-icon name="oi-trophy" scale="6" />
+                <v-icon name="oi-graph" scale="6" />
               </ButtonDefault>
             </div>
             <div v-else>
@@ -48,6 +50,36 @@ const themeStore = useThemeStore()
               </ButtonDefault>
             </div>
           </RouterLink>
+
+          <RouterLink to="/sobre-mim">
+            <div v-if="themeStore.Switch">
+              <ButtonDefault title="Sobre Mim">
+                <v-icon name="oi-person" scale="6" />
+              </ButtonDefault>
+            </div>
+            <div v-else>
+              <ButtonDefault title="Sobre Mim">
+                <v-icon name="fc-businessman" scale="6" />
+              </ButtonDefault>
+            </div>
+          </RouterLink>
+
+          <RouterLink to="/projetos">
+            <div v-if="themeStore.Switch">
+              <ButtonDefault title="Projetos">
+                <v-icon name="oi-file-directory" scale="6" />
+              </ButtonDefault>
+            </div>
+            <div v-else>
+              <ButtonDefault title="Projetos">
+                <v-icon name="fc-opened-folder" scale="6" />
+              </ButtonDefault>
+            </div>
+          </RouterLink>
+        </div>
+
+
+        <div class="w-full flex justify-center">
           <RouterView />
         </div>
       </div>
@@ -64,6 +96,7 @@ const themeStore = useThemeStore()
 .WiiU {
   background: url('../assets/Background/SVG/background-mii-maker.svg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 </style>

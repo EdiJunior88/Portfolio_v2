@@ -25,7 +25,7 @@ if (savedTheme) {
   </div>
   <div v-else>
     <ButtonDefault @click="toggleTheme" title="Tema">
-      <v-icon name="fc-services" scale="6" />
+      <v-icon name="fc-settings" scale="6" />
     </ButtonDefault>
   </div>
 </template>
