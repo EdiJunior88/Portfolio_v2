@@ -11,20 +11,5 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  },
-  build: {
-    rollupOptions: {
-      // https://rollupjs.org/guide/en/#outputmanualchunks
-      output: {
-        manualChunks: {
-          page: [
-            './src/page/HomePage',
-            './src/page/HabilityPage',
-            './src/page/AboutPage',
-            './src/page/ProjectPage'
-          ]
-        }
-      }
-    }
   }
 })
