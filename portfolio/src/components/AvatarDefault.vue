@@ -29,6 +29,10 @@ const themeStore = useThemeStore()
 </template>
 
 <style scoped>
+.WiiU, .Switch {
+  cursor: auto;
+}
+
 .WiiU #background-description {
   background: rgb(255, 255, 255);
   background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(221, 221, 221) 100%);
