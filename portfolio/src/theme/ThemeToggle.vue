@@ -20,12 +20,18 @@ if (savedTheme) {
 <template>
   <div v-if="themeStore.Switch">
     <ButtonDefault @click="toggleTheme" title="Tema">
-      <v-icon name="oi-gear" scale="6" />
+      <v-icon name="oi-gear" scale="4" />
     </ButtonDefault>
   </div>
   <div v-else>
     <ButtonDefault @click="toggleTheme" title="Tema">
-      <v-icon name="fc-settings" scale="6" />
+      <v-icon name="fc-settings" scale="4" />
     </ButtonDefault>
   </div>
 </template>
+
+<style scoped>
+.Switch {
+  color: #313131;
+}
+</style>

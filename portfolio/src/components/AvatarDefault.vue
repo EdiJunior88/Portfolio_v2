@@ -1,21 +1,58 @@
 <script setup lang="ts">
-defineProps(['src', 'alt', 'name', 'description'])
+import { useThemeStore } from '@/theme/ThemeChange'
+
+defineProps(['src', 'alt', 'width', 'height', 'name', 'description'])
+
+const themeStore = useThemeStore()
 </script>
 
 <template>
   <button>
-    <div class="container w-11/12 sm:w-full h-auto flex flex-row justify-center gap-2">
-      <div class="avatar w-28 background-button rounded-lg shadow-lg">
-        <img class="py-4" :src="src" :alt="alt" />
+    <div
+      :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
+      class="container w-11/12 sm:w-full h-auto flex flex-row justify-center gap-2"
+    >
+      <div id="avatar" class="bg-white w-28 rounded-lg shadow-lg">
+        <img class="py-4" :src="src" :alt="alt" :width="width" :height="height" />
       </div>
       <div
-        class="avatar-container-description bg-white w-full h-auto sm:w-96 rounded-lg shadow-lg flex flex-col justify-center items-center gap-2 background-shadow"
+        id="background-description"
+        class="bg-white w-full h-auto sm:w-96 rounded-lg shadow-lg flex flex-col justify-center items-center gap-2"
       >
-        <p class="avatar-name sm:text-2xl font-bold">{{ name }}</p>
-        <p class="avatar-description sm:text-sm text-[10px] text-gray-500">
+        <p id="name" class="sm:text-2xl font-bold">{{ name }}</p>
+        <p class="sm:text-sm text-[10px] text-gray-500 font-medium">
           {{ description }}
         </p>
       </div>
     </div>
   </button>
 </template>
+
+<style scoped>
+.WiiU #background-description {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(221, 221, 221) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(221, 221, 221) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(221, 221, 221) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ebebeb",GradientType=1);
+}
+
+.WiiU #avatar {
+  background: url('../assets/Background/background-button.webp') no-repeat center center;
+  background-size: cover;
+}
+
+.Switch #avatar {
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+.Switch #background-description {
+  background: none;
+  box-shadow: none;
+}
+
+.Switch #name {
+  color: #41a5a3;
+}
+</style>
