@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import InterfaceAboutPage from '@/Interface/Interface'
 import { useThemeStore } from '@/theme/ThemeChange'
 
 //Calculo idade de nascimento atual
-let birthDate: InterfaceAboutPage = new Date('1988-03-26')
-let dateToday: InterfaceAboutPage = new Date()
-const difference = dateToday - birthDate
-const age: InterfaceAboutPage = Math.floor(difference / (1000 * 60 * 60 * 24 * 365.25))
+let birthDate = new Date('1988-03-26')
+let dateToday = new Date()
+const difference = dateToday.getTime() - birthDate.getTime()
+const age = Math.floor(difference / (1000 * 60 * 60 * 24 * 365.25))
 const ageToday = ref(age)
 
 const themeStore = useThemeStore()

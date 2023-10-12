@@ -20,9 +20,3 @@ export interface InterfaceButtonAbility {
   text: string
   image: string
 }
-
-export interface InterfaceAboutPage {
-  age: number
-  dateToday: Date
-  birthDate: Date
-}
