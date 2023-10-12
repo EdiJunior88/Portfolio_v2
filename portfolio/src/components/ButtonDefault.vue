@@ -29,4 +29,11 @@ const themeStore = useThemeStore()
 .Switch #text {
   color: #41a5a3;
 }
+
+.WiiU button{
+  background: url(../assets/Background/background-button.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 </style>

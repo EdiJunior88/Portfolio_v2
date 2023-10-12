@@ -12,7 +12,7 @@ const themeStore = useThemeStore()
 <template>
   <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
     <div
-      class="w-full min-h-screen max-h-full mx-auto flex flex-col justify-evenly sm:justify-center items-center gap-10 sm:gap-12"
+      class="container w-11/12 min-h-screen max-h-full mx-auto flex flex-col justify-evenly sm:justify-center items-center gap-12 sm:gap-12 py-12 px-36"
     >
       <Avatar
         :src="Mii"

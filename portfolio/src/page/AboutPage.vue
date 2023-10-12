@@ -1,7 +1,73 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue'
+import InterfaceAboutPage from '@/Interface/Interface'
+import { useThemeStore } from '@/theme/ThemeChange'
+
+//Calculo idade de nascimento atual
+let birthDate: InterfaceAboutPage = new Date('1988-03-26')
+let dateToday: InterfaceAboutPage = new Date()
+const difference = dateToday - birthDate
+const age: InterfaceAboutPage = Math.floor(difference / (1000 * 60 * 60 * 24 * 365.25))
+const ageToday = ref(age)
+
+const themeStore = useThemeStore()
+</script>
 
 <template>
-  <div>Página Sobre mim</div>
+  <div
+    :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
+    class="w-full p-6 rounded-lg"
+  >
+    <p>
+      Olá, meu nome é Edivaldo Junior, moro em Maceió-AL (terra das praias 🏝️), tenho
+      {{ ageToday }} anos e adoro jogar vide-game, embarquei nesse mundo através de um Atari do
+      vizinho e logo depois meu pai comprou um Turbo-Game 🎮 para substituir o falecido Microgenius
+      🕹️ e desde então tornou-se um dos meus melhores hobbies quando não estou estudando ou
+      trabalhando.
+    </p>
+
+    <p>
+      Atualmente sou formado em Análise e Desenvolvimento EAD pela Universidade Estácio de Sá e
+      estou migrando de área - Suporte e Infra 💾 - para Desenvolvimento Front-End e estou
+      encantando como essa área pode ser absurdamente vasta e completa. Estive estudando sozinho por
+      cerca de um ano, porém a consistência com o tempo vai diminuindo e consequentemente a
+      motivação vai caindo na mesma proporção 😒, então, me arrisquei e comecei a estudar através da
+      NewTab Academy 📚 que é uma empresa especializada em integração de pessoas no mercado de
+      trabalho através de métodos diferenciados no ensino.
+    </p>
+
+    <p>
+      Finalizando esse textão ✏️, espero continuar crescendo nessa área (T.I.) que é uma das minhas
+      áreas preferidas e também espero adquirir novos conhecimentos 🧠 com o decorrer dos anos.
+    </p>
+
+    <p>- E isso é tudo pe..pe..pe..pe..pessoal!!!! 🐷</p>
+  </div>
 </template>
 
-<style lang="css" scoped></style>
+<style lang="css" scoped>
+.WiiU p,
+.Switch p {
+  text-align: justify;
+  text-indent: 3rem;
+  line-height: 2rem;
+  padding-bottom: 1rem;
+}
+
+.WiiU p:nth-child(4),
+.Switch p:nth-child(4) {
+  padding-bottom: 0;
+}
+
+.WiiU div {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(221, 221, 221) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(221, 221, 221) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(221, 221, 221) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ebebeb",GradientType=1);
+}
+
+.Switch div {
+  background: #fff;
+}
+</style>
