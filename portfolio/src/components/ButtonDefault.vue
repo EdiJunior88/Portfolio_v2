@@ -9,28 +9,27 @@ const themeStore = useThemeStore()
 <template>
   <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
     <button
-      id="button"
-      class="w-40 rounded-lg bg-white p-2 border-zinc-200 border-solid border-2 shadow-lg"
+      class="button-shadow w-40 rounded-lg bg-white p-2 border-zinc-200 border-solid border-2 shadow-lg"
       @click="onClick"
     >
-      <div class="button flex flex-col justify-center items-center gap-4">
+      <div class="flex flex-col justify-center items-center gap-4">
         <slot></slot>
-        <p id="text" class="font-medium text-sm sm:text-lg">{{ title }}</p>
+        <p class="text-color font-medium text-sm sm:text-lg">{{ title }}</p>
       </div>
     </button>
   </div>
 </template>
 
 <style scoped>
-.Switch #button {
+.Switch .button-shadow {
   box-shadow: none;
 }
 
-.Switch #text {
+.Switch .text-color {
   color: #41a5a3;
 }
 
-.WiiU button{
+.WiiU button {
   background: url(../assets/Background/background-button.webp);
   background-position: center center;
   background-repeat: no-repeat;

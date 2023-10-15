@@ -18,7 +18,7 @@ const themeStore = useThemeStore()
               <p class="font-medium">{{ image.title }}</p>
             </div>
           </a>
-          <img :src="image.src" :alt="image.alt" />
+          <img :src="image.src" :alt="image.alt" width="1351" height="546" />
         </SplideSlide>
       </Splide>
     </div>
