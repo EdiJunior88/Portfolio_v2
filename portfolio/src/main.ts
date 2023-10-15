@@ -3,15 +3,46 @@ import '@/css/style.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { OhVueIcon, addIcons } from 'oh-vue-icons'
-import * as FaIcons from 'oh-vue-icons/icons/fa'
-import * as SiIcons from 'oh-vue-icons/icons/si'
-import * as FcIcons from 'oh-vue-icons/icons/fc'
-import * as BiIcons from 'oh-vue-icons/icons/bi'
-import * as OiIcons from 'oh-vue-icons/icons/oi'
 import VueSplide from '@splidejs/vue-splide'
+import { OiHome } from 'oh-vue-icons/icons/oi'
+import { OiGraph } from 'oh-vue-icons/icons/oi'
+import { OiPerson } from 'oh-vue-icons/icons/oi'
+import { OiFileDirectory } from 'oh-vue-icons/icons/oi'
+import { OiGear } from 'oh-vue-icons/icons/oi'
+import { FcHome } from 'oh-vue-icons/icons/fc'
+import { FcComboChart } from 'oh-vue-icons/icons/fc'
+import { FcBusinessman } from 'oh-vue-icons/icons/fc'
+import { FcOpenedFolder } from 'oh-vue-icons/icons/fc'
+import { FcGlobe } from 'oh-vue-icons/icons/fc'
+import { FcSettings } from 'oh-vue-icons/icons/fc'
+import { FaGlobeAmericas } from 'oh-vue-icons/icons/fa'
+import { FaGithubSquare } from 'oh-vue-icons/icons/fa'
+import { FaInstagramSquare } from 'oh-vue-icons/icons/fa'
+import { FaLinkedin } from 'oh-vue-icons/icons/fa'
+import { FaMicrosoft } from 'oh-vue-icons/icons/fa'
+import { FaFreeCodeCamp } from 'oh-vue-icons/icons/fa'
+import { SiWakatime } from 'oh-vue-icons/icons/si'
 
-const Fc = Object.values({ ...SiIcons, ...FaIcons, ...FcIcons, ...BiIcons, ...OiIcons })
-addIcons(...Fc)
+addIcons(
+  OiHome,
+  FcHome,
+  OiGraph,
+  OiPerson,
+  OiFileDirectory,
+  OiGear,
+  FcComboChart,
+  FcBusinessman,
+  FcOpenedFolder,
+  FcGlobe,
+  FcSettings,
+  FaGlobeAmericas,
+  FaGithubSquare,
+  FaInstagramSquare,
+  FaLinkedin,
+  FaMicrosoft,
+  FaFreeCodeCamp,
+  SiWakatime
+)
 
 import App from './App.vue'
 import router from './router'
