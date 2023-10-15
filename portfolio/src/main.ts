@@ -1,4 +1,3 @@
-// @ts-ignore
 import '@/css/style.css'
 
 import { createApp } from 'vue'
@@ -9,7 +8,8 @@ import * as SiIcons from 'oh-vue-icons/icons/si'
 import * as FcIcons from 'oh-vue-icons/icons/fc'
 import * as BiIcons from 'oh-vue-icons/icons/bi'
 import * as OiIcons from 'oh-vue-icons/icons/oi'
-import VueSplide from '@splidejs/vue-splide'
+
+const VueSplide = require('@splidejs/vue-splide')
 
 const Fc = Object.values({ ...SiIcons, ...FaIcons, ...FcIcons, ...BiIcons, ...OiIcons })
 addIcons(...Fc)
