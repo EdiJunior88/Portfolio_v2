@@ -27,6 +27,6 @@ const themeStore = useThemeStore()
 
 <style scoped>
 .Switch .icons span {
-  color: #41a5a3;
+  color: #2b7776;
 }
 </style>

@@ -86,7 +86,7 @@ const themeStore = useThemeStore()
   </div>
 </template>
 
-<style scoped>
+<style lang="css" scoped>
 .Switch {
   background: #d8d8d8;
   color: #313131;

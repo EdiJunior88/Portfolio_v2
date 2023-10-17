@@ -15,7 +15,7 @@ const themeStore = useThemeStore()
 <template>
   <div
     :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
-    class="w-full p-6 rounded-lg antialiased"
+    class="w-full p-6 rounded-lg antialiased font-normal"
   >
     <p>
       Olá, meu nome é Edivaldo Junior, moro em Maceió-AL (terra das praias 🏝️), tenho
@@ -71,6 +71,6 @@ const themeStore = useThemeStore()
 }
 
 .Switch p {
-  font-weight: 500;
+  color: #2b7776;
 }
 </style>

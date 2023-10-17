@@ -22,6 +22,9 @@ import { FaInstagramSquare } from 'oh-vue-icons/icons/fa'
 import { FaLinkedin } from 'oh-vue-icons/icons/fa'
 import { FaMicrosoft } from 'oh-vue-icons/icons/fa'
 import { FaFreeCodeCamp } from 'oh-vue-icons/icons/fa'
+import { FiBr } from 'oh-vue-icons/icons/fi'
+import { FiUm } from 'oh-vue-icons/icons/fi'
+import { FiEs } from 'oh-vue-icons/icons/fi'
 import { SiWakatime } from 'oh-vue-icons/icons/si'
 import { SiMui } from 'oh-vue-icons/icons/si'
 import { SiSwiper } from 'oh-vue-icons/icons/si'
@@ -77,7 +80,10 @@ addIcons(
   SiTypescript,
   SiVuedotjs,
   SiFortinet,
-  ViFileTypeLightNext
+  ViFileTypeLightNext,
+  FiBr,
+  FiUm,
+  FiEs,
 )
 
 import App from './App.vue'

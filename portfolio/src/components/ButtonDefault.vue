@@ -26,7 +26,7 @@ const themeStore = useThemeStore()
 }
 
 .Switch .text-color {
-  color: #41a5a3;
+  color: #2b7776;
 }
 
 .WiiU button {

@@ -40,11 +40,6 @@ const themeStore = useThemeStore()
 </template>
 
 <style lang="css" scoped>
-/* .Switch {
-  padding-top: 1.5rem;
-  border-top: 1px solid #000;
-} */
-
 .WiiU {
   background: none;
 }

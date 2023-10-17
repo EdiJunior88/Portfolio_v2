@@ -18,8 +18,9 @@ const themeStore = useThemeStore()
         <div class="w-full flex flex-col justify-between">
           <p class="font-medium text-xl italic">Universidade Estácio de Sá</p>
           <p>Análise e Desenvolvimento de Sistemas (Tecnólogo)</p>
-          <span class="border border-solid border-gray-500"></span>
           <p>Janeiro 2020 - Junho 2021</p>
+          <p>Coeficiente de Rendimento (CR) - 9.74</p>
+          <p>Carga Horária Total Cumprida - 2759</p>
         </div>
       </div>
 
@@ -45,6 +46,56 @@ const themeStore = useThemeStore()
           <v-icon name="si-fortinet" scale="3.5" />
           <v-icon name="si-windowsxp" scale="3.5" />
           <v-icon name="si-linux" scale="3.5" />
+        </div>
+      </div>
+
+      <div class="flex flex-row gap-5">
+        <ButtonDefault title="Experiências Profissionais">
+          <span class="text-5xl">💼</span>
+        </ButtonDefault>
+        <div class="w-full flex flex-col justify-between">
+          <p class="font-medium text-xl italic">Hiperlink - Hub de Soluções</p>
+          <p>Desenvolvedor de Software (Front-End Web)</p>
+          <p>Maio 2023 - Agosto 2023</p>
+          <p>São Paulo - Brasil (Remoto)</p>
+
+          <span class="border border-solid border-gray-500 my-5"></span>
+
+          <p class="font-medium text-xl italic">
+            DPRF - Departamento de Polícia Rodoviária Federal
+          </p>
+          <p>Suporte Técnico em Informática (Estágio)</p>
+          <p>Maio 2019 - Agosto 2021</p>
+          <p>Maceió - AL - Brasil</p>
+
+          <span class="border border-solid border-gray-500 my-5"></span>
+
+          <p class="font-medium text-xl italic">CONAB - Companhia Nacional de Abastecimento</p>
+          <p>Suporte Técnico em Informática (Estágio)</p>
+          <p>Outubro 2017 - Abril 2019</p>
+          <p>Maceió - AL - Brasil</p>
+        </div>
+      </div>
+
+      <div class="flex flex-row gap-5">
+        <ButtonDefault title="Idiomas">
+          <span class="text-5xl">🔊</span>
+        </ButtonDefault>
+        <div class="w-full flex flex-col">
+          <div class="flex flex-row items-center">
+            <v-icon name="fi-br" scale="2" />
+            <p class="pl-5">Nativo - Fluente</p>
+          </div>
+
+          <div class="flex flex-row items-center">
+            <v-icon name="fi-um" scale="2" />
+            <p class="pl-5">Básico - Conversação e Escrita</p>
+          </div>
+
+          <div class="flex flex-row items-center">
+            <v-icon name="fi-es" scale="2" />
+            <p class="pl-5">Básico - Conversação e Escrita</p>
+          </div>
         </div>
       </div>
     </div>
@@ -57,8 +108,9 @@ const themeStore = useThemeStore()
         <div class="w-full flex flex-col justify-between">
           <p class="font-medium text-xl italic">Universidade Estácio de Sá</p>
           <p>Análise e Desenvolvimento de Sistemas (Tecnólogo)</p>
-          <span class="border border-solid border-gray-500"></span>
           <p>Janeiro 2020 - Junho 2021</p>
+          <p>Coeficiente de Rendimento (CR) - 9.74</p>
+          <p>Carga Horária Total Cumprida - 2759</p>
         </div>
       </div>
 
@@ -84,6 +136,56 @@ const themeStore = useThemeStore()
           <v-icon name="si-fortinet" scale="3.5" />
           <v-icon name="si-windowsxp" scale="3.5" />
           <v-icon name="si-linux" scale="3.5" />
+        </div>
+      </div>
+
+      <div class="flex flex-row gap-5">
+        <ButtonDefault title="Experiências Profissionais">
+          <span class="text-5xl">💼</span>
+        </ButtonDefault>
+        <div class="w-full flex flex-col justify-between">
+          <p class="font-medium text-xl italic">Hiperlink - Hub de Soluções</p>
+          <p>Desenvolvedor de Software (Front-End Web)</p>
+          <p>Maio 2023 - Agosto 2023</p>
+          <p>São Paulo - Brasil (Remoto)</p>
+
+          <span class="border border-solid border-gray-500 my-5"></span>
+
+          <p class="font-medium text-xl italic">
+            DPRF - Departamento de Polícia Rodoviária Federal
+          </p>
+          <p>Suporte Técnico em Informática (Estágio)</p>
+          <p>Maio 2019 - Agosto 2021</p>
+          <p>Maceió - AL - Brasil</p>
+
+          <span class="border border-solid border-gray-500 my-5"></span>
+
+          <p class="font-medium text-xl italic">CONAB - Companhia Nacional de Abastecimento</p>
+          <p>Suporte Técnico em Informática (Estágio)</p>
+          <p>Outubro 2017 - Abril 2019</p>
+          <p>Maceió - AL - Brasil</p>
+        </div>
+      </div>
+
+      <div class="flex flex-row gap-5">
+        <ButtonDefault title="Idiomas">
+          <span class="text-5xl">🔊</span>
+        </ButtonDefault>
+        <div class="w-full flex flex-col">
+          <div class="flex flex-row items-center">
+            <v-icon name="fi-br" scale="2" />
+            <p class="pl-5">Nativo - Fluente</p>
+          </div>
+
+          <div class="flex flex-row items-center">
+            <v-icon name="fi-um" scale="2" />
+            <p class="pl-5">Básico - Conversação e Escrita</p>
+          </div>
+
+          <div class="flex flex-row items-center">
+            <v-icon name="fi-es" scale="2" />
+            <p class="pl-5">Básico - Conversação e Escrita</p>
+          </div>
         </div>
       </div>
     </div>
@@ -104,6 +206,6 @@ const themeStore = useThemeStore()
 }
 
 .Switch p {
-  color: #41a5a3;
+  color: #2b7776;
 }
 </style>
