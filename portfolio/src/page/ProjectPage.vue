@@ -12,7 +12,7 @@ import ExemploPortfolio from '../assets/Image/exemplo-portfolio.webp'
 import ExemploPortfolioFreeCodeCamp from '../assets/Image/exemplo-portfolio-freecodecamp.webp'
 import ExemploTailwindcss from '../assets/Image/exemplo-tailwindcss.webp'
 import FavoritarRepositorios from '../assets/Image/favoritar-repositorios.webp'
-// import GithubFinder from '../assets/Image/github-finder.webp'
+import GithubFinder from '../assets/Image/github-finder.webp'
 import ListaTarefas from '../assets/Image/lista-tarefas.webp'
 import Musicdot from '../assets/Image/musicdot.webp'
 import NinjaList from '../assets/Image/ninja-list.webp'
@@ -85,12 +85,12 @@ let images = [
     href: 'https://projeto-favoritar-repositorios.vercel.app/',
     title: 'Favoritar Repositorios'
   },
-  // {
-  //   src: GithubFinder,
-  //   alt: 'GithubFinder',
-  //   href: 'https://githubfinder-edijunior88.netlify.app/',
-  //   title: 'Github Finder'
-  // },
+  {
+    src: GithubFinder,
+    alt: 'GithubFinder',
+    href: 'https://githubfinder-edijunior88.netlify.app/',
+    title: 'Github Finder'
+  },
   {
     src: ListaTarefas,
     alt: 'ListaTarefas',
