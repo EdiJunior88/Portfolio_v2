@@ -8,10 +8,12 @@ const themeStore = useThemeStore()
 <template>
   <div
     :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
-    class="div-background w-full p-6 rounded-lg antialiased"
+    class="div-background w-full p-4 sm:p-6 rounded-lg antialiased"
   >
     <div v-if="themeStore.Switch" class="flex flex-col gap-5">
-      <div class="flex flex-row gap-5">
+      <div
+        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+      >
         <ButtonDefault title="Formação Acadêmica">
           <span class="text-5xl">👨‍🎓</span>
         </ButtonDefault>
@@ -24,11 +26,13 @@ const themeStore = useThemeStore()
         </div>
       </div>
 
-      <div class="flex flex-row gap-5">
+      <div
+        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+      >
         <ButtonDefault title="Habilidades Técnicas">
           <span class="text-5xl">🛠️</span>
         </ButtonDefault>
-        <div class="w-full flex flex-wrap items-stretch">
+        <div class="w-full flex flex-wrap justify-center sm:justify-start items-stretch">
           <v-icon name="si-html5" scale="3.5" />
           <v-icon name="si-css3" scale="3.5" />
           <v-icon name="si-javascript" scale="3.5" />
@@ -49,7 +53,9 @@ const themeStore = useThemeStore()
         </div>
       </div>
 
-      <div class="flex flex-row gap-5">
+      <div
+        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+      >
         <ButtonDefault title="Experiências Profissionais">
           <span class="text-5xl">💼</span>
         </ButtonDefault>
@@ -77,22 +83,24 @@ const themeStore = useThemeStore()
         </div>
       </div>
 
-      <div class="flex flex-row gap-5">
+      <div
+        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+      >
         <ButtonDefault title="Idiomas">
           <span class="text-5xl">🔊</span>
         </ButtonDefault>
         <div class="w-full flex flex-col">
-          <div class="flex flex-row items-center">
+          <div class="flex flex-row items-center sm:justify-start justify-center">
             <v-icon name="fi-br" scale="2" />
-            <p class="pl-5">Nativo - Fluente</p>
+            <p class="pl-5">Nativo - Conversação e Escrita</p>
           </div>
 
-          <div class="flex flex-row items-center">
+          <div class="flex flex-row items-center sm:justify-start justify-center">
             <v-icon name="fi-um" scale="2" />
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
 
-          <div class="flex flex-row items-center">
+          <div class="flex flex-row items-center sm:justify-start justify-center">
             <v-icon name="fi-es" scale="2" />
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
@@ -101,7 +109,9 @@ const themeStore = useThemeStore()
     </div>
 
     <div v-else class="flex flex-col gap-5">
-      <div class="flex flex-row gap-5">
+      <div
+        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+      >
         <ButtonDefault title="Formação Acadêmica">
           <span class="text-5xl">👨‍🎓</span>
         </ButtonDefault>
@@ -114,11 +124,13 @@ const themeStore = useThemeStore()
         </div>
       </div>
 
-      <div class="flex flex-row gap-5">
+      <div
+        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+      >
         <ButtonDefault title="Habilidades Técnicas">
           <span class="text-5xl">🛠️</span>
         </ButtonDefault>
-        <div class="w-full flex flex-wrap items-stretch">
+        <div class="w-full flex flex-wrap justify-center sm:justify-start items-stretch">
           <v-icon name="si-html5" scale="3.5" />
           <v-icon name="si-css3" scale="3.5" />
           <v-icon name="si-javascript" scale="3.5" />
@@ -139,7 +151,9 @@ const themeStore = useThemeStore()
         </div>
       </div>
 
-      <div class="flex flex-row gap-5">
+      <div
+        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+      >
         <ButtonDefault title="Experiências Profissionais">
           <span class="text-5xl">💼</span>
         </ButtonDefault>
@@ -167,22 +181,24 @@ const themeStore = useThemeStore()
         </div>
       </div>
 
-      <div class="flex flex-row gap-5">
+      <div
+        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+      >
         <ButtonDefault title="Idiomas">
           <span class="text-5xl">🔊</span>
         </ButtonDefault>
         <div class="w-full flex flex-col">
-          <div class="flex flex-row items-center">
+          <div class="flex flex-row items-center sm:justify-start justify-center">
             <v-icon name="fi-br" scale="2" />
-            <p class="pl-5">Nativo - Fluente</p>
+            <p class="pl-5">Nativo - Conversação e Escrita</p>
           </div>
 
-          <div class="flex flex-row items-center">
+          <div class="flex flex-row items-center sm:justify-start justify-center">
             <v-icon name="fi-um" scale="2" />
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
 
-          <div class="flex flex-row items-center">
+          <div class="flex flex-row items-center sm:justify-start justify-center">
             <v-icon name="fi-es" scale="2" />
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
