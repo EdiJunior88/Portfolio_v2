@@ -15,7 +15,7 @@ const themeStore = useThemeStore()
 <template>
   <div
     :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
-    class="w-full p-6 rounded-lg antialiased font-normal"
+    class="w-full p-4 sm:p-6 rounded-lg antialiased font-normal indent-6 sm:indent-12"
   >
     <p>
       Olá, meu nome é Edivaldo Junior, moro em Maceió-AL (terra das praias 🏝️), tenho
@@ -48,7 +48,6 @@ const themeStore = useThemeStore()
 .WiiU p,
 .Switch p {
   text-align: justify;
-  text-indent: 3rem;
   line-height: 2rem;
   padding-bottom: 1rem;
 }
