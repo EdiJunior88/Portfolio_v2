@@ -114,7 +114,7 @@ let images = [
     alt: 'TodoList',
     href: 'https://baltaio-mytodolist.netlify.app/',
     title: 'Todo List'
-  },
+  }
 ]
 
 const themeStore = useThemeStore()
