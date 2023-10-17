@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import { useThemeStore } from '@/theme/ThemeChange'
-import Avatar from '@/components/AvatarDefault.vue'
-import ButtonDefault from '@/components/ButtonDefault.vue'
-import Mii from '@/assets/Image/Mii-transparente.webp'
-import ThemeToggle from '@/theme/ThemeToggle.vue'
+import { useThemeStore } from '../theme/ThemeChange'
+import Avatar from '../components/AvatarDefault.vue'
+import ButtonDefault from '../components/ButtonDefault.vue'
+import Mii from '../assets/Image/Mii-transparente.webp'
+import ThemeToggle from '../theme/ThemeToggle.vue'
 
 const themeStore = useThemeStore()
 </script>

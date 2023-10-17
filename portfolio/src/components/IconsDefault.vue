@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useThemeStore } from '@/theme/ThemeChange'
+import { useThemeStore } from '../theme/ThemeChange'
 
 defineProps(['title', 'link'])
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useThemeStore } from '@/theme/ThemeChange'
+import { useThemeStore } from '../theme/ThemeChange'
 import '@splidejs/vue-splide/css'
 
 defineProps(['images'])
