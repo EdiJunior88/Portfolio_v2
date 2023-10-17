@@ -7,29 +7,28 @@ const themeStore = useThemeStore()
 </script>
 
 <template>
-  <button>
-    <div
-      :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
-      class="container w-11/12 sm:w-full h-auto flex flex-row justify-center gap-2"
-    >
-      <div id="avatar" class="bg-white w-28 rounded-lg shadow-lg">
-        <img class="py-4" :src="src" :alt="alt" :width="width" :height="height" />
-      </div>
-      <div
-        id="background-description"
-        class="bg-white w-full h-auto sm:w-96 rounded-lg shadow-lg flex flex-col justify-center items-center gap-2"
-      >
-        <p id="name" class="sm:text-2xl font-bold">{{ name }}</p>
-        <p class="sm:text-sm text-[10px] text-gray-500 font-medium">
-          {{ description }}
-        </p>
-      </div>
+  <div
+    :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
+    class="w-full h-auto flex flex-row justify-center gap-2"
+  >
+    <div id="avatar" class="bg-white w-28 rounded-lg shadow-lg">
+      <img class="py-4" :src="src" :alt="alt" :width="width" :height="height" />
     </div>
-  </button>
+    <div
+      id="background-description"
+      class="bg-white w-full h-auto sm:w-96 rounded-lg shadow-lg flex flex-col justify-center items-center gap-2 text-center"
+    >
+      <p id="name" class="sm:text-2xl text-sm font-bold">{{ name }}</p>
+      <p class="sm:text-sm text-[9px] text-gray-500 font-medium">
+        {{ description }}
+      </p>
+    </div>
+  </div>
 </template>
 
 <style scoped>
-.WiiU, .Switch {
+.WiiU,
+.Switch {
   cursor: auto;
 }
 
