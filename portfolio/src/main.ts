@@ -15,6 +15,7 @@ import { FcBusinessman } from 'oh-vue-icons/icons/fc'
 import { FcOpenedFolder } from 'oh-vue-icons/icons/fc'
 import { FcGlobe } from 'oh-vue-icons/icons/fc'
 import { FcSettings } from 'oh-vue-icons/icons/fc'
+import { FcGraduationCap } from 'oh-vue-icons/icons/fc'
 import { FaGlobeAmericas } from 'oh-vue-icons/icons/fa'
 import { FaGithubSquare } from 'oh-vue-icons/icons/fa'
 import { FaInstagramSquare } from 'oh-vue-icons/icons/fa'
@@ -22,6 +23,23 @@ import { FaLinkedin } from 'oh-vue-icons/icons/fa'
 import { FaMicrosoft } from 'oh-vue-icons/icons/fa'
 import { FaFreeCodeCamp } from 'oh-vue-icons/icons/fa'
 import { SiWakatime } from 'oh-vue-icons/icons/si'
+import { SiMui } from 'oh-vue-icons/icons/si'
+import { SiSwiper } from 'oh-vue-icons/icons/si'
+import { SiFigma } from 'oh-vue-icons/icons/si'
+import { SiGrafana } from 'oh-vue-icons/icons/si'
+import { SiBootstrap } from 'oh-vue-icons/icons/si'
+import { SiWindowsxp } from 'oh-vue-icons/icons/si'
+import { SiLinux } from 'oh-vue-icons/icons/si'
+import { SiHtml5 } from 'oh-vue-icons/icons/si'
+import { SiCss3 } from 'oh-vue-icons/icons/si'
+import { SiJavascript } from 'oh-vue-icons/icons/si'
+import { SiReact } from 'oh-vue-icons/icons/si'
+import { SiVite } from 'oh-vue-icons/icons/si'
+import { SiStyledcomponents } from 'oh-vue-icons/icons/si'
+import { SiTypescript } from 'oh-vue-icons/icons/si'
+import { SiVuedotjs } from 'oh-vue-icons/icons/si'
+import { SiFortinet } from 'oh-vue-icons/icons/si'
+import { ViFileTypeLightNext } from 'oh-vue-icons/icons/vi'
 
 addIcons(
   OiHome,
@@ -35,13 +53,31 @@ addIcons(
   FcOpenedFolder,
   FcGlobe,
   FcSettings,
+  FcGraduationCap,
   FaGlobeAmericas,
   FaGithubSquare,
   FaInstagramSquare,
   FaLinkedin,
   FaMicrosoft,
   FaFreeCodeCamp,
-  SiWakatime
+  SiWakatime,
+  SiMui,
+  SiSwiper,
+  SiFigma,
+  SiBootstrap,
+  SiGrafana,
+  SiWindowsxp,
+  SiLinux,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiVite,
+  SiStyledcomponents,
+  SiTypescript,
+  SiVuedotjs,
+  SiFortinet,
+  ViFileTypeLightNext
 )
 
 import App from './App.vue'
