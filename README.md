@@ -98,6 +98,7 @@
 <hr>
 
 <h3>Status do Deploy</h3>
+
 ![Vercel](https://vercelbadge.vercel.app/api/EdiJunior88/Portfolio_v2?style=for-the-badge)
 
 <hr>
