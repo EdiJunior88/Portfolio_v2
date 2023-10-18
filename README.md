@@ -104,8 +104,16 @@
 <hr>
 
 <h3>Versão Mobile</h3>
-<img src="./img-readme/Portfolio-v2-mobile-Switch.webp">
-<img src="./img-readme/Portfolio-v2-mobile-WiiU.webp">
+<table>
+  <tr>
+    <td>
+      <img src="./img-readme/Portfolio-v2-mobile-Switch.webp">
+    </td>
+    <td>
+      <img src="./img-readme/Portfolio-v2-mobile-WiiU.webp">
+    </td>
+  </tr>
+</table>
 
 <hr>
 
