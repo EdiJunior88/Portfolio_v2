@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import ButtonDefault from '@/components/ButtonDefault.vue'
 import { useThemeStore } from '@/theme/ThemeChange'
+import HabilityDefault from '@/components/HabilityDefault.vue'
+import type { InterfaceThemeStore } from '@/Interface/Interface'
 
-const themeStore = useThemeStore()
+const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
 <template>
@@ -11,27 +12,15 @@ const themeStore = useThemeStore()
     class="div-background w-full p-4 sm:p-6 rounded-lg antialiased"
   >
     <div v-if="themeStore.Switch" class="flex flex-col gap-5">
-      <div
-        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
-      >
-        <ButtonDefault title="Formação Acadêmica">
-          <span class="text-5xl">👨‍🎓</span>
-        </ButtonDefault>
-        <div class="w-full flex flex-col justify-between">
-          <p class="font-medium text-xl italic">Universidade Estácio de Sá</p>
-          <p>Análise e Desenvolvimento de Sistemas (Tecnólogo)</p>
-          <p>Janeiro 2020 - Junho 2021</p>
-          <p>Coeficiente de Rendimento (CR) - 9.74</p>
-          <p>Carga Horária Total Cumprida - 2759</p>
-        </div>
-      </div>
+      <HabilityDefault title="Formação Acadêmica" icon="👨‍🎓">
+        <p class="font-medium text-xl italic">Universidade Estácio de Sá</p>
+        <p>Análise e Desenvolvimento de Sistemas (Tecnólogo)</p>
+        <p>Janeiro 2020 - Junho 2021</p>
+        <p>Coeficiente de Rendimento (CR) - 9.74</p>
+        <p>Carga Horária Total Cumprida - 2759</p>
+      </HabilityDefault>
 
-      <div
-        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
-      >
-        <ButtonDefault title="Habilidades Técnicas">
-          <span class="text-5xl">🛠️</span>
-        </ButtonDefault>
+      <HabilityDefault title="Habilidades Técnicas" icon="🛠️">
         <div class="w-full flex flex-wrap justify-center sm:justify-start items-stretch">
           <v-icon name="si-html5" scale="3.5" />
           <v-icon name="si-css3" scale="3.5" />
@@ -51,44 +40,30 @@ const themeStore = useThemeStore()
           <v-icon name="si-windowsxp" scale="3.5" />
           <v-icon name="si-linux" scale="3.5" />
         </div>
-      </div>
+      </HabilityDefault>
 
-      <div
-        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
-      >
-        <ButtonDefault title="Experiências Profissionais">
-          <span class="text-5xl">💼</span>
-        </ButtonDefault>
+      <HabilityDefault title="Experiências Profissionais" icon="💼">
         <div class="w-full flex flex-col justify-between">
           <p class="font-medium text-xl italic">Hiperlink - Hub de Soluções</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
           <p>Maio 2023 - Agosto 2023</p>
           <p>São Paulo - Brasil (Remoto)</p>
-
           <span class="border border-solid border-gray-500 my-5"></span>
-
           <p class="font-medium text-xl italic">
             DPRF - Departamento de Polícia Rodoviária Federal
           </p>
           <p>Suporte Técnico em Informática (Estágio)</p>
           <p>Maio 2019 - Agosto 2021</p>
           <p>Maceió - AL - Brasil</p>
-
           <span class="border border-solid border-gray-500 my-5"></span>
-
           <p class="font-medium text-xl italic">CONAB - Companhia Nacional de Abastecimento</p>
           <p>Suporte Técnico em Informática (Estágio)</p>
           <p>Outubro 2017 - Abril 2019</p>
           <p>Maceió - AL - Brasil</p>
         </div>
-      </div>
+      </HabilityDefault>
 
-      <div
-        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
-      >
-        <ButtonDefault title="Idiomas">
-          <span class="text-5xl">🔊</span>
-        </ButtonDefault>
+      <HabilityDefault title="Idiomas" icon="🔊">
         <div class="w-full flex flex-col">
           <div class="flex flex-row items-center sm:justify-start justify-center">
             <v-icon name="fi-br" scale="2" />
@@ -105,31 +80,19 @@ const themeStore = useThemeStore()
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
         </div>
-      </div>
+      </HabilityDefault>
     </div>
 
     <div v-else class="flex flex-col gap-5">
-      <div
-        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
-      >
-        <ButtonDefault title="Formação Acadêmica">
-          <span class="text-5xl">👨‍🎓</span>
-        </ButtonDefault>
-        <div class="w-full flex flex-col justify-between">
-          <p class="font-medium text-xl italic">Universidade Estácio de Sá</p>
-          <p>Análise e Desenvolvimento de Sistemas (Tecnólogo)</p>
-          <p>Janeiro 2020 - Junho 2021</p>
-          <p>Coeficiente de Rendimento (CR) - 9.74</p>
-          <p>Carga Horária Total Cumprida - 2759</p>
-        </div>
-      </div>
+      <HabilityDefault title="Formação Acadêmica" icon="👨‍🎓">
+        <p class="font-medium text-xl italic">Universidade Estácio de Sá</p>
+        <p>Análise e Desenvolvimento de Sistemas (Tecnólogo)</p>
+        <p>Janeiro 2020 - Junho 2021</p>
+        <p>Coeficiente de Rendimento (CR) - 9.74</p>
+        <p>Carga Horária Total Cumprida - 2759</p>
+      </HabilityDefault>
 
-      <div
-        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
-      >
-        <ButtonDefault title="Habilidades Técnicas">
-          <span class="text-5xl">🛠️</span>
-        </ButtonDefault>
+      <HabilityDefault title="Habilidades Técnicas" icon="🛠️">
         <div class="w-full flex flex-wrap justify-center sm:justify-start items-stretch">
           <v-icon name="si-html5" scale="3.5" />
           <v-icon name="si-css3" scale="3.5" />
@@ -149,44 +112,30 @@ const themeStore = useThemeStore()
           <v-icon name="si-windowsxp" scale="3.5" />
           <v-icon name="si-linux" scale="3.5" />
         </div>
-      </div>
+      </HabilityDefault>
 
-      <div
-        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
-      >
-        <ButtonDefault title="Experiências Profissionais">
-          <span class="text-5xl">💼</span>
-        </ButtonDefault>
+      <HabilityDefault title="Experiências Profissionais" icon="💼">
         <div class="w-full flex flex-col justify-between">
           <p class="font-medium text-xl italic">Hiperlink - Hub de Soluções</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
           <p>Maio 2023 - Agosto 2023</p>
           <p>São Paulo - Brasil (Remoto)</p>
-
           <span class="border border-solid border-gray-500 my-5"></span>
-
           <p class="font-medium text-xl italic">
             DPRF - Departamento de Polícia Rodoviária Federal
           </p>
           <p>Suporte Técnico em Informática (Estágio)</p>
           <p>Maio 2019 - Agosto 2021</p>
           <p>Maceió - AL - Brasil</p>
-
           <span class="border border-solid border-gray-500 my-5"></span>
-
           <p class="font-medium text-xl italic">CONAB - Companhia Nacional de Abastecimento</p>
           <p>Suporte Técnico em Informática (Estágio)</p>
           <p>Outubro 2017 - Abril 2019</p>
           <p>Maceió - AL - Brasil</p>
         </div>
-      </div>
+      </HabilityDefault>
 
-      <div
-        class="flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
-      >
-        <ButtonDefault title="Idiomas">
-          <span class="text-5xl">🔊</span>
-        </ButtonDefault>
+      <HabilityDefault title="Idiomas" icon="🔊">
         <div class="w-full flex flex-col">
           <div class="flex flex-row items-center sm:justify-start justify-center">
             <v-icon name="fi-br" scale="2" />
@@ -203,7 +152,7 @@ const themeStore = useThemeStore()
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
         </div>
-      </div>
+      </HabilityDefault>
     </div>
   </div>
 </template>

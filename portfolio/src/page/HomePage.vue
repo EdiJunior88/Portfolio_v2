@@ -1,18 +1,19 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import { useThemeStore } from '../theme/ThemeChange'
-import Avatar from '../components/AvatarDefault.vue'
-import ButtonDefault from '../components/ButtonDefault.vue'
-import Mii from '../assets/Image/Mii-transparente.webp'
-import ThemeToggle from '../theme/ThemeToggle.vue'
+import { useThemeStore } from '@/theme/ThemeChange'
+import type { InterfaceThemeStore } from '@/Interface/Interface'
+import Avatar from '@/components/AvatarDefault.vue'
+import ButtonDefault from '@/components/ButtonDefault.vue'
+import Mii from '@/assets/Image/Mii-transparente.webp'
+import ThemeToggle from '@/theme/ThemeToggle.vue'
 
-const themeStore = useThemeStore()
+const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
 <template>
   <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
     <div
-      class="min-h-screen sm:max-h-full mx-auto flex flex-col justify-center items-center gap-12 sm:gap-12 py-12 px-4 sm:px-36"
+      class="min-h-screen sm:max-w-screen-xl mx-auto flex flex-col justify-center items-center gap-12 sm:gap-12 py-12 px-4 sm:px-36"
     >
       <Avatar
         :src="Mii"
@@ -93,7 +94,7 @@ const themeStore = useThemeStore()
 }
 
 .WiiU {
-  background: url('../assets/Background/SVG/background-mii-maker.svg');
+  background: url('@/assets/Background/SVG/background-mii-maker.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
