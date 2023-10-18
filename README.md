@@ -92,8 +92,13 @@
 
 <hr>
 
-<h3>Site e Status do Projeto</h3>
+<h3>Site</h3>
 <strong><a href="https://portfolio-v2-edijunior88.vercel.app/" target="_blank">https://portfolio-v2-edijunior88.vercel.app/</a></strong>
+
+<hr>
+
+<h3>Status do Deploy</h3>
+![Vercel](https://vercelbadge.vercel.app/api/EdiJunior88/Portfolio_v2?style=for-the-badge)
 
 <hr>
 
@@ -104,18 +109,16 @@
 <hr>
 
 <h3>Versão Mobile</h3>
-<p align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="./img-readme/Portfolio-v2-mobile-Switch.webp" width="60%" height="60%">
-      </td>
-      <td>
-        <img src="./img-readme/Portfolio-v2-mobile-WiiU.webp" width="60%" height="60%">
-      </td>
-    </tr>
-  </table>
-</p>
+<table align="center">
+  <tr>
+    <td>
+      <img src="./img-readme/Portfolio-v2-mobile-Switch.webp" width="60%" height="60%">
+    </td>
+    <td>
+      <img src="./img-readme/Portfolio-v2-mobile-WiiU.webp" width="60%" height="60%">
+    </td>
+  </tr>
+</table>
 
 <hr>
 
