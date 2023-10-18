@@ -40,7 +40,7 @@
     </td>
     <td>
       <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='pinia' src='https://img.shields.io/badge/Pinia-100000?style=plastic&logo=vuetify&logoColor=white&labelColor=626262&color=E30DFF'/></a>
+        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='pinia' src='https://img.shields.io/badge/Pinia-100000?style=plastic&logo=vuetify&logoColor=white&labelColor=626262&color=e69138'/></a>
       </p>
     </td>
   </tr>
@@ -54,7 +54,7 @@
   <tr>
     <td>
       <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='netlify' src='https://img.shields.io/badge/Netfly-100000?style=plastic&logo=netlify&logoColor=white&labelColor=626262&color=31FF0D'/></a>
+        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='netlify' src='https://img.shields.io/badge/vercel-100000?style=plastic&logo=vercel&logoColor=white&labelColor=626262&color=31FF0D'/></a>
       </p>
     </td>
     <td>
@@ -93,16 +93,25 @@
 <hr>
 
 <h3>Site e Status do Projeto</h3>
-<strong><a href="https://consulta-quadrinhos.netlify.app/" target="_blank">https://consulta-quadrinhos.netlify.app/</a></strong><br><br>
-<img src="https://api.netlify.com/api/v1/badges/a42416b0-72dc-4a37-90c4-c60d5e59566f/deploy-status" />
+<strong><a href="https://portfolio-v2-edijunior88.vercel.app/" target="_blank">https://portfolio-v2-edijunior88.vercel.app/</a></strong>
 
 <hr>
 
-<img src="./app/src/Imagens/Consulta-Quadrinhos-Index.jpg">
+<h3>Versão Desktop / Tablet</h3>
+<img src="./img-readme/Portfolio-v2-Switch.webp">
+<img src="./img-readme/Portfolio-v2-WiiU.webp">
+
+<hr>
+
+<h3>Versão Mobile</h3>
+<img src="./img-readme/Portfolio-v2-mobile-Switch.webp">
+<img src="./img-readme/Portfolio-v2-mobile-WiiU.webp">
 
 <hr>
 
 <h3>Tempo dedicado ao projeto</h3>
 <p>
-  <a href="https://wakatime.com/badge/github/EdiJunior88/Consulta_Quadrinhos"><img src="https://wakatime.com/badge/github/EdiJunior88/Consulta_Quadrinhos.svg" alt="wakatime"></a>
+  <a href="https://wakatime.com/badge/user/e7b8ca2e-291c-4eca-846b-95eced7beff1/project/4df33eac-d594-488a-b467-a5445472d123">
+    <img src="https://wakatime.com/badge/user/e7b8ca2e-291c-4eca-846b-95eced7beff1/project/4df33eac-d594-488a-b467-a5445472d123.svg" alt="wakatime">
+  </a>
 </p>
