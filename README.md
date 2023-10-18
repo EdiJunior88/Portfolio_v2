@@ -107,10 +107,10 @@
 <table>
   <tr>
     <td>
-      <img src="./img-readme/Portfolio-v2-mobile-Switch.webp">
+      <img src="./img-readme/Portfolio-v2-mobile-Switch.webp" width="60%" height="60%">
     </td>
     <td>
-      <img src="./img-readme/Portfolio-v2-mobile-WiiU.webp">
+      <img src="./img-readme/Portfolio-v2-mobile-WiiU.webp" width="60%" height="60%">
     </td>
   </tr>
 </table>
