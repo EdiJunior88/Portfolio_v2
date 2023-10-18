@@ -1,9 +1,17 @@
 <script setup lang="ts">
-import { useThemeStore } from '../theme/ThemeChange'
+import type { InterfaceThemeStore } from '@/Interface/Interface'
+import { useThemeStore } from '@/theme/ThemeChange'
 
-defineProps(['src', 'alt', 'width', 'height', 'name', 'description'])
+defineProps({
+  src: String,
+  alt: String,
+  width: Number,
+  height: Number,
+  name: String,
+  description: String
+})
 
-const themeStore = useThemeStore()
+const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
 <template>
@@ -26,7 +34,7 @@ const themeStore = useThemeStore()
   </div>
 </template>
 
-<style scoped>
+<style lang="css" scoped>
 .WiiU,
 .Switch {
   cursor: auto;

@@ -1,10 +1,18 @@
 <script setup lang="ts">
-import { useThemeStore } from '../theme/ThemeChange'
+import type { InterfaceThemeStore } from '@/Interface/Interface'
+import type { InterfaceImage } from '@/Interface/Interface'
+import { useThemeStore } from '@/theme/ThemeChange'
+import type { PropType } from 'vue'
 import '@splidejs/vue-splide/css'
 
-defineProps(['images'])
+defineProps({
+  images: {
+    type: Array as PropType<InterfaceImage[]>,
+    required: true
+  }
+})
 
-const themeStore = useThemeStore()
+const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
 <template>
@@ -39,7 +47,7 @@ a {
 }
 
 .WiiU div {
-  background: url(../assets/Background/background-button.webp);
+  background: url(@/assets/Background/background-button.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

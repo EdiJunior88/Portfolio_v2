@@ -1,9 +1,21 @@
 <script setup lang="ts">
-import { useThemeStore } from '../theme/ThemeChange'
+import type { InterfaceThemeStore } from '@/Interface/Interface'
+import { useThemeStore } from '@/theme/ThemeChange'
 
-defineProps(['title', 'link'])
+defineProps({
+  link: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  title: {
+    type: String,
+    required: true,
+    default: ''
+  }
+})
 
-const themeStore = useThemeStore()
+const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
 <template>
@@ -25,7 +37,7 @@ const themeStore = useThemeStore()
   </div>
 </template>
 
-<style scoped>
+<style lang="css" scoped>
 .Switch .icons span {
   color: #2b7776;
 }

@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import { useThemeStore } from '../theme/ThemeChange'
+import { useThemeStore } from '@/theme/ThemeChange'
+import type { PropType } from 'vue'
+import type { InterfaceThemeStore } from '@/Interface/Interface'
 
-defineProps(['onClick', 'children', 'title'])
+defineProps({
+  onClick: Function as PropType<(event: MouseEvent) => void>,
+  children: String,
+  title: String
+})
 
-const themeStore = useThemeStore()
+const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
 <template>
@@ -20,7 +26,7 @@ const themeStore = useThemeStore()
   </div>
 </template>
 
-<style scoped>
+<style lang="css" scoped>
 .Switch .button-shadow {
   box-shadow: none;
 }
