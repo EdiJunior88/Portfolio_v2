@@ -93,6 +93,7 @@
 <hr>
 
 <h3>Site</h3>
+
 <strong><a href="https://portfolio-v2-edijunior88.vercel.app/" target="_blank">https://portfolio-v2-edijunior88.vercel.app/</a></strong>
 
 <hr>
@@ -110,7 +111,8 @@
 <hr>
 
 <h3>Versão Mobile</h3>
-<table align="center">
+
+<table align='center'>
   <tr>
     <td>
       <img src="./img-readme/Portfolio-v2-mobile-Switch.webp" width="60%" height="60%">
@@ -124,6 +126,7 @@
 <hr>
 
 <h3>Tempo dedicado ao projeto</h3>
+
 <p>
   <a href="https://wakatime.com/badge/user/e7b8ca2e-291c-4eca-846b-95eced7beff1/project/4df33eac-d594-488a-b467-a5445472d123">
     <img src="https://wakatime.com/badge/user/e7b8ca2e-291c-4eca-846b-95eced7beff1/project/4df33eac-d594-488a-b467-a5445472d123.svg" alt="wakatime">
