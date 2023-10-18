@@ -104,7 +104,7 @@
 <hr>
 
 <h3>Versão Mobile</h3>
-<div align="center">
+<p align="center">
   <table>
     <tr>
       <td>
@@ -115,7 +115,7 @@
       </td>
     </tr>
   </table>
-</div>
+</p>
 
 <hr>
 
