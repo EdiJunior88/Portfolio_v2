@@ -25,6 +25,8 @@ import { FaFreeCodeCamp } from 'oh-vue-icons/icons/fa'
 import { FiBr } from 'oh-vue-icons/icons/fi'
 import { FiUm } from 'oh-vue-icons/icons/fi'
 import { FiEs } from 'oh-vue-icons/icons/fi'
+import { GiPineapple } from "oh-vue-icons/icons";
+import { RiVuejsLine } from 'oh-vue-icons/icons'
 import { SiWakatime } from 'oh-vue-icons/icons/si'
 import { SiMui } from 'oh-vue-icons/icons/si'
 import { SiSwiper } from 'oh-vue-icons/icons/si'
@@ -42,6 +44,8 @@ import { SiStyledcomponents } from 'oh-vue-icons/icons/si'
 import { SiTypescript } from 'oh-vue-icons/icons/si'
 import { SiVuedotjs } from 'oh-vue-icons/icons/si'
 import { SiFortinet } from 'oh-vue-icons/icons/si'
+import { SiReactquery } from 'oh-vue-icons/icons'
+import { SiCsswizardry } from 'oh-vue-icons/icons'
 import { ViFileTypeLightNext } from 'oh-vue-icons/icons/vi'
 
 addIcons(
@@ -63,6 +67,8 @@ addIcons(
   FaLinkedin,
   FaMicrosoft,
   FaFreeCodeCamp,
+  GiPineapple,
+  RiVuejsLine,
   SiWakatime,
   SiMui,
   SiSwiper,
@@ -80,10 +86,12 @@ addIcons(
   SiTypescript,
   SiVuedotjs,
   SiFortinet,
+  SiReactquery,
+  SiCsswizardry,
   ViFileTypeLightNext,
   FiBr,
   FiUm,
-  FiEs,
+  FiEs
 )
 
 import App from './App.vue'

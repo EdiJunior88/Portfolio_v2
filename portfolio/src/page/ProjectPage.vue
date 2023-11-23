@@ -18,8 +18,22 @@ import ListaTarefas from '@/assets/Image/lista-tarefas.webp'
 import Musicdot from '@/assets/Image/musicdot.webp'
 import NinjaList from '@/assets/Image/ninja-list.webp'
 import TodoList from '@/assets/Image/todo-list.webp'
+import MKSSistemas from '@/assets/Image/MKS-Sistemas.webp'
+import CantinhoDoBloguinho from '@/assets/Image/Cantinho-do-Bloguinho.webp'
 
 let images = [
+  {
+    src: CantinhoDoBloguinho,
+    alt: 'CantinhoDoBloguinho',
+    href: 'https://cantinho-do-bloguinho.vercel.app/',
+    title: 'Cantinho do Bloguinho'
+  },
+  {
+    src: MKSSistemas,
+    alt: 'MKSSistemas',
+    href: 'https://mks-front-end-challenge-edijunior88.vercel.app/',
+    title: 'MKS Sistemas'
+  },
   {
     src: AluraTube,
     alt: 'AluraTube',
