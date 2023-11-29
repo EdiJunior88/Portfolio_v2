@@ -50,7 +50,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
         <div class="w-full flex flex-col justify-between">
           <p class="font-medium text-xl italic">Freelancer</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
-          <p>Agosto 2023 - Até o momento</p>
+          <p>Outubro 2022 - Até o momento</p>
           <p>Maceió - AL - Brasil</p>
           <span class="border border-solid border-gray-500 my-5"></span>
           <p class="font-medium text-xl italic">Hiperlink - Hub de Soluções</p>
@@ -131,7 +131,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
         <div class="w-full flex flex-col justify-between">
           <p class="font-medium text-xl italic">Freelancer</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
-          <p>Agosto 2023 - Até o momento</p>
+          <p>Outubro 2022 - Até o momento</p>
           <p>Maceió - AL - Brasil</p>
           <span class="border border-solid border-gray-500 my-5"></span>
           <p class="font-medium text-xl italic">Hiperlink - Hub de Soluções</p>
