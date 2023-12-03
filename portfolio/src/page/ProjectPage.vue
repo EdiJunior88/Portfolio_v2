@@ -21,7 +21,7 @@ import TodoList from '@/assets/Image/todo-list.webp'
 import MKSSistemas from '@/assets/Image/MKS-Sistemas.webp'
 import CantinhoDoBloguinho from '@/assets/Image/Cantinho-do-Bloguinho.webp'
 
-let images = [
+const images = [
   {
     src: CantinhoDoBloguinho,
     alt: 'CantinhoDoBloguinho',

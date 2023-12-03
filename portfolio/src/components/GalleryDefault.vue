@@ -15,6 +15,12 @@ defineProps({
 const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
+<script>
+export default {
+  inheritAttrs: false
+}
+</script>
+
 <template>
   <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
     <div v-bind="$attrs">
