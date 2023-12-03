@@ -25,7 +25,7 @@ import { FaFreeCodeCamp } from 'oh-vue-icons/icons/fa'
 import { FiBr } from 'oh-vue-icons/icons/fi'
 import { FiUm } from 'oh-vue-icons/icons/fi'
 import { FiEs } from 'oh-vue-icons/icons/fi'
-import { GiPineapple } from "oh-vue-icons/icons";
+import { GiPineapple } from 'oh-vue-icons/icons'
 import { RiVuejsLine } from 'oh-vue-icons/icons'
 import { SiWakatime } from 'oh-vue-icons/icons/si'
 import { SiMui } from 'oh-vue-icons/icons/si'
