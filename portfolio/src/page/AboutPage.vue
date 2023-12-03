@@ -5,8 +5,8 @@ import type { InterfaceThemeStore } from '@/Interface/Interface'
 import { differenceInYears } from 'date-fns'
 
 //Calculo da idade atual através da data de nascimento
-let birthDate = new Date('1988-03-26')
-let dateToday = new Date()
+const birthDate = new Date('1988-03-26')
+const dateToday = new Date()
 const age = differenceInYears(dateToday, birthDate)
 const ageToday = ref<number>(age)
 
