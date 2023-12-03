@@ -3,12 +3,36 @@ import type { InterfaceThemeStore } from '@/Interface/Interface'
 import { useThemeStore } from '@/theme/ThemeChange'
 
 defineProps({
-  src: String,
-  alt: String,
-  width: Number,
-  height: Number,
-  name: String,
-  description: String
+  src: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  alt: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  width: {
+    type: Number,
+    required: true,
+    default: 0
+  },
+  height: {
+    type: Number,
+    required: true,
+    default: 0
+  },
+  name: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  description: {
+    type: String,
+    required: true,
+    default: ''
+  }
 })
 
 const themeStore: InterfaceThemeStore = useThemeStore()

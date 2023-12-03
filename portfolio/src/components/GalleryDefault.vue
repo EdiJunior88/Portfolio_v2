@@ -2,7 +2,7 @@
 import type { InterfaceThemeStore } from '@/Interface/Interface'
 import type { InterfaceImage } from '@/Interface/Interface'
 import { useThemeStore } from '@/theme/ThemeChange'
-import type { PropType } from 'vue'
+import { defineComponent, type PropType } from 'vue'
 import '@splidejs/vue-splide/css'
 
 defineProps({
@@ -12,30 +12,26 @@ defineProps({
   }
 })
 
-const themeStore: InterfaceThemeStore = useThemeStore()
-</script>
-
-<script>
-export default {
+defineComponent({
   inheritAttrs: false
-}
+})
+
+const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
 <template>
   <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
-    <div v-bind="$attrs">
-      <Splide :options="{ rewind: true }" aria-label="Galeria de Projetos">
-        <SplideSlide v-for="image in images" :key="image.src">
-          <a :href="image.href" target="_blank">
-            <div class="rounded-lg flex flex-col items-center p-3 gap-2">
-              <slot></slot>
-              <p class="font-medium">{{ image.title }}</p>
-            </div>
-          </a>
-          <img :src="image.src" :alt="image.alt" width="1366" height="768" />
-        </SplideSlide>
-      </Splide>
-    </div>
+    <Splide v-bind="$attrs" :options="{ rewind: true }" aria-label="Galeria de Projetos">
+      <SplideSlide v-for="image in images" :key="image.src">
+        <a :href="image.href" target="_blank" rel="noopener noreferrer">
+          <div class="rounded-lg flex flex-col items-center p-3 gap-2">
+            <slot></slot>
+            <p class="font-medium">{{ image.title }}</p>
+          </div>
+        </a>
+        <img :src="image.src" :alt="image.alt" width="1366" height="768" />
+      </SplideSlide>
+    </Splide>
   </div>
 
   <div class="splide__arrows" />

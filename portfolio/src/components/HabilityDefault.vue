@@ -2,8 +2,16 @@
 import ButtonDefault from '@/components/ButtonDefault.vue'
 
 defineProps({
-  title: String,
-  icon: String
+  title: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  icon: {
+    type: String,
+    required: true,
+    default: ''
+  }
 })
 </script>
 

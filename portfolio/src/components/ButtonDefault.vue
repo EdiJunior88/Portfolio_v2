@@ -4,9 +4,21 @@ import type { PropType } from 'vue'
 import type { InterfaceThemeStore } from '@/Interface/Interface'
 
 defineProps({
-  onClick: Function as PropType<(event: MouseEvent) => void>,
-  children: String,
-  title: String
+  onClick: {
+    type: Function as PropType<(event: MouseEvent) => void>,
+    required: false,
+    default: () => {}
+  },
+  title: {
+    type: String,
+    required: false,
+    default: ''
+  },
+  children: {
+    type: String,
+    required: false,
+    default: ''
+  }
 })
 
 const themeStore: InterfaceThemeStore = useThemeStore()
