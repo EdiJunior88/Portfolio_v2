@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import type { InterfaceThemeStore } from '@/Interface/Interface'
-import type { InterfaceImage } from '@/Interface/Interface'
+import type { InterfaceThemeStore, InterfaceImage } from '@/Interface/Interface'
 import { useThemeStore } from '@/theme/ThemeChange'
 import { defineComponent, type PropType } from 'vue'
 import '@splidejs/vue-splide/css'

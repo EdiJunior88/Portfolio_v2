@@ -6,15 +6,9 @@ import type { InterfaceThemeStore } from '@/Interface/Interface'
 defineProps({
   onClick: {
     type: Function as PropType<(event: MouseEvent) => void>,
-    required: false,
-    default: () => {}
+    required: false
   },
   title: {
-    type: String,
-    required: false,
-    default: ''
-  },
-  children: {
     type: String,
     required: false,
     default: ''
