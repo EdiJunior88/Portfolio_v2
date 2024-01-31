@@ -44,13 +44,16 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
+
 ![](https://img.stackshare.io/repo.svg "repo") [EdiJunior88/Portfolio_v2](https://github.com/EdiJunior88/Portfolio_v2)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |24<br/>Tools used|01/31/24 <br/>Report generated|
 |------|------|
+
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/6727/css.png' alt='CSS 3'>
@@ -80,6 +83,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (5)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'>
@@ -125,6 +129,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (5)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'>
@@ -170,6 +175,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (1)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/7618/bHjpwZem_400x400.png' alt='Vercel'>
@@ -183,6 +189,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## Other (2)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/48301/default_0cffd727391e16b2a8bd6edbcffc0255a3a541d0.png' alt='Pinia'>
@@ -203,21 +210,20 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-
 ## <img src='https://img.stackshare.io/group.svg' /> Open source packages (8)</h2>
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (8)
 
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[@types/node](https://www.npmjs.com/@types/node)|v20.11.10|01/29/24|dependabot[bot] |MIT|N/A|
-|[@vue/eslint-config-prettier](https://www.npmjs.com/@vue/eslint-config-prettier)|v9.0.0|01/29/24|dependabot[bot] |MIT|N/A|
-|[@vue/eslint-config-typescript](https://www.npmjs.com/@vue/eslint-config-typescript)|v12.0.0|01/29/24|dependabot[bot] |MIT|N/A|
-|[eslint-plugin-vue](https://www.npmjs.com/eslint-plugin-vue)|v9.20.1|01/29/24|dependabot[bot] |MIT|N/A|
-|[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.4.1|12/25/23|dependabot[bot] |MIT|N/A|
-|[vite](https://www.npmjs.com/vite)|v5.0.12|01/19/24|dependabot[bot] |N/A|N/A|
-|[vue](https://www.npmjs.com/vue)|v3.4.15|07/20/23|EdiJunior88 |MIT|N/A|
-|[vue-router](https://www.npmjs.com/vue-router)|v4.2.5|01/01/24|dependabot[bot] |MIT|N/A|
+| NAME                                                                                 | VERSION   | LAST UPDATED | LAST UPDATED BY | LICENSE | VULNERABILITIES |
+| :----------------------------------------------------------------------------------- | :-------- | :----------- | :-------------- | :------ | :-------------- |
+| [@types/node](https://www.npmjs.com/@types/node)                                     | v20.11.10 | 01/29/24     | dependabot[bot] | MIT     | N/A             |
+| [@vue/eslint-config-prettier](https://www.npmjs.com/@vue/eslint-config-prettier)     | v9.0.0    | 01/29/24     | dependabot[bot] | MIT     | N/A             |
+| [@vue/eslint-config-typescript](https://www.npmjs.com/@vue/eslint-config-typescript) | v12.0.0   | 01/29/24     | dependabot[bot] | MIT     | N/A             |
+| [eslint-plugin-vue](https://www.npmjs.com/eslint-plugin-vue)                         | v9.20.1   | 01/29/24     | dependabot[bot] | MIT     | N/A             |
+| [tailwindcss](https://www.npmjs.com/tailwindcss)                                     | v3.4.1    | 12/25/23     | dependabot[bot] | MIT     | N/A             |
+| [vite](https://www.npmjs.com/vite)                                                   | v5.0.12   | 01/19/24     | dependabot[bot] | N/A     | N/A             |
+| [vue](https://www.npmjs.com/vue)                                                     | v3.4.15   | 07/20/23     | EdiJunior88     | MIT     | N/A             |
+| [vue-router](https://www.npmjs.com/vue-router)                                       | v4.2.5    | 01/01/24     | dependabot[bot] | MIT     | N/A             |
 
 <br/>
 <div align='center'>
