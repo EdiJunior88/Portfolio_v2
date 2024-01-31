@@ -4,91 +4,22 @@
 
 <hr>
 
-<h3>O projeto utiliza das seguintes tecnologias:</h3>
+<h3>Tecnologias Utilizadas</h3>
 
-<table>
-  <tr>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='windows' src='https://img.shields.io/badge/Windows_10-100000?style=plastic&logo=windows&logoColor=white&labelColor=626262&color=0DFFE3'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='visualstudio' src='https://img.shields.io/badge/Visual_Studio Code-100000?style=plastic&logo=visualstudio&logoColor=white&labelColor=626262&color=410DFF'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='javascript' src='https://img.shields.io/badge/JavaScript-100000?style=plastic&logo=javascript&logoColor=white&labelColor=626262&color=FFDB0D'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='html5' src='https://img.shields.io/badge/HTML5-100000?style=plastic&logo=html5&logoColor=white&labelColor=626262&color=FF660D'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='vuejs3' src='https://img.shields.io/badge/Vuejs_3-100000?style=plastic&logo=vuedotjs&logoColor=white&labelColor=626262&color=1833FF'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='cssmodules' src='https://img.shields.io/badge/Tailwind_CSS-100000?style=plastic&logo=tailwindcss&logoColor=white&labelColor=626262&color=E30DFF'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='pinia' src='https://img.shields.io/badge/Pinia-100000?style=plastic&logo=vuetify&logoColor=white&labelColor=626262&color=e69138'/></a>
-      </p>
-    </td>
-  </tr>
-</table>
+- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/3837/paeckCWC.png' alt='Vue.js'/> [Vue.js](http://vuejs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/7618/bHjpwZem_400x400.png' alt='Vercel'/> [Vercel](https://vercel.com/) – Static Web Hosting
+- <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png' alt='date-fns'/> [date-fns](https://date-fns.org/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
 
-<hr>
-
-<h3>O projeto utiliza das seguintes ferramentas:</h3>
-
-<table>
-  <tr>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='netlify' src='https://img.shields.io/badge/vercel-100000?style=plastic&logo=vercel&logoColor=white&labelColor=626262&color=31FF0D'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='git' src='https://img.shields.io/badge/GIT-100000?style=plastic&logo=git&logoColor=white&labelColor=626262&color=FF0D0D'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='github' src='https://img.shields.io/badge/GitHub-100000?style=plastic&logo=github&logoColor=white&labelColor=626262&color=E4E3E3'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='npm' src='https://img.shields.io/badge/NPM-100000?style=plastic&logo=npm&logoColor=white&labelColor=626262&color=6439FF'/></a>
-      </p>
-    </td>
-    <td>
-      <p>
-        <img src='https://badgen.net/badge/license/MIT/blue'/>
-      </p>
-    </td>
-    <td>
-      <p>
-        <img src='https://badgen.net/npm/v/express'/>
-      </p>
-    </td>
-    <td>
-      <p>
-        <img src='https://badgen.net/npm/node/next'/>
-      </p>
-    </td>
-  </tr>
-</table>
+Para ver todas as tecnologias [clique aqui](/techstack.md)
 
 <hr>
 
