@@ -62,4 +62,6 @@ Para ver todas as tecnologias [clique aqui](/techstack.md)
   </a>
 </p>
 
+<hr>
+
 <h4><b>Status do projeto:</b> ✅ Concluído</h4>
