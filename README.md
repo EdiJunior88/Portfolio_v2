@@ -23,9 +23,7 @@ Para ver todas as tecnologias [clique aqui](/techstack.md)
 
 <hr>
 
-<h3>Site</h3>
-
-<strong><a href="https://portfolio-v2-edijunior88.vercel.app/" target="_blank">https://portfolio-v2-edijunior88.vercel.app/</a></strong>
+<strong>Link do Projeto</strong> <a href="https://portfolio-v2-edijunior88.vercel.app/" target="_blank">https://portfolio-v2-edijunior88.vercel.app/</a>
 
 <hr>
 
@@ -63,3 +61,5 @@ Para ver todas as tecnologias [clique aqui](/techstack.md)
     <img src="https://wakatime.com/badge/user/e7b8ca2e-291c-4eca-846b-95eced7beff1/project/4df33eac-d594-488a-b467-a5445472d123.svg" alt="wakatime">
   </a>
 </p>
+
+<h4><b>Status do projeto:</b> ✅ Concluído</h4>
