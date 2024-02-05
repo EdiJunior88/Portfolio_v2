@@ -31,7 +31,7 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.21.1",
-    "npm-run-all2": "^6.0.6",
+    "npm-run-all2": "^6.1.2",
     "postcss": "^8.4.33",
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.0",
