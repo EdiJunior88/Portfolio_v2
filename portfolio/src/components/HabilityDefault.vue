@@ -17,12 +17,12 @@ defineProps({
 
 <template>
   <div
-    class="w-full h-full flex flex-col justify-center sm:justify-start sm:flex-row items-center sm:items-start text-center sm:text-start gap-5"
+    class="flex h-full w-full flex-col items-center justify-center gap-5 text-center sm:flex-row sm:items-start sm:justify-start sm:text-start"
   >
     <ButtonDefault :title="title">
       <span class="text-5xl">{{ icon }}</span>
     </ButtonDefault>
-    <div class="w-full flex flex-col justify-between">
+    <div class="flex w-full flex-col justify-between">
       <slot />
     </div>
   </div>

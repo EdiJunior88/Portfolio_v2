@@ -16,7 +16,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 <template>
   <div
     :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
-    class="w-full p-4 sm:p-6 rounded-lg antialiased font-normal indent-6 sm:indent-12"
+    class="w-full rounded-lg p-4 indent-6 font-normal antialiased sm:p-6 sm:indent-12"
   >
     <p>
       Olá, meu nome é Edivaldo Junior, moro em Maceió-AL (terra das praias 🏝️), tenho

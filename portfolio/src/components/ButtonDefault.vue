@@ -22,12 +22,12 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 <template>
   <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
     <button
-      class="button-shadow w-40 rounded-lg bg-white p-2 border-zinc-200 border-solid border-2 shadow-lg"
+      class="button-shadow w-40 rounded-lg border-2 border-solid border-zinc-200 bg-white p-2 shadow-lg"
       @click="onClick"
     >
-      <div class="flex flex-col justify-center items-center gap-4">
+      <div class="flex flex-col items-center justify-center gap-4">
         <slot></slot>
-        <p class="text-color font-medium text-sm sm:text-lg">{{ title }}</p>
+        <p class="text-color text-sm font-medium sm:text-lg">{{ title }}</p>
       </div>
     </button>
   </div>

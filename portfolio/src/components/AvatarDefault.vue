@@ -41,17 +41,17 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 <template>
   <div
     :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
-    class="w-full h-auto flex flex-row justify-center gap-2"
+    class="flex h-auto w-full flex-row justify-center gap-2"
   >
-    <div id="avatar" class="bg-white w-28 rounded-lg shadow-lg">
+    <div id="avatar" class="w-28 rounded-lg bg-white shadow-lg">
       <img class="py-4" :src="src" :alt="alt" :width="width" :height="height" />
     </div>
     <div
       id="background-description"
-      class="bg-white w-full h-auto sm:w-96 rounded-lg shadow-lg flex flex-col justify-center items-center gap-2 text-center"
+      class="flex h-auto w-full flex-col items-center justify-center gap-2 rounded-lg bg-white text-center shadow-lg sm:w-96"
     >
-      <p id="name" class="sm:text-2xl text-sm font-bold">{{ name }}</p>
-      <p class="sm:text-sm text-[9px] text-gray-500 font-medium">
+      <p id="name" class="text-sm font-bold sm:text-2xl">{{ name }}</p>
+      <p class="text-[9px] font-medium text-gray-500 sm:text-sm">
         {{ description }}
       </p>
     </div>

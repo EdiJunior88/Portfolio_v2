@@ -13,7 +13,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 <template>
   <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
     <div
-      class="min-h-screen sm:max-w-screen-xl mx-auto flex flex-col justify-center items-center gap-12 sm:gap-12 py-12 px-4 sm:px-36"
+      class="mx-auto flex min-h-screen flex-col items-center justify-center gap-12 px-4 py-12 sm:max-w-screen-xl sm:gap-12 sm:px-36"
     >
       <Avatar
         :src="Mii"
@@ -21,10 +21,10 @@ const themeStore: InterfaceThemeStore = useThemeStore()
         :width="300"
         :height="300"
         name="Edivaldo Reis Moura Junior"
-        description="Desenvolvedor Front-End + React + TypeScript"
+        description="Desenvolvedor Front-End + React + VueJS + TypeScript"
       />
 
-      <div class="flex justify-center items-center flex-wrap gap-8">
+      <div class="flex flex-wrap items-center justify-center gap-8">
         <ThemeToggle />
 
         <RouterLink to="/">
@@ -80,7 +80,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
         </RouterLink>
       </div>
 
-      <div class="w-full flex justify-center">
+      <div class="flex w-full justify-center">
         <RouterView />
       </div>
     </div>

@@ -9,11 +9,11 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 <template>
   <div
     :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
-    class="div-background w-full p-4 sm:p-6 rounded-lg antialiased"
+    class="div-background w-full rounded-lg p-4 antialiased sm:p-6"
   >
     <div v-if="themeStore.Switch" class="flex flex-col gap-5">
       <HabilityDefault title="Formação Acadêmica" icon="👨‍🎓">
-        <p class="font-medium text-xl italic">Universidade Estácio de Sá</p>
+        <p class="text-xl font-medium italic">Universidade Estácio de Sá</p>
         <p>Análise e Desenvolvimento de Sistemas (Tecnólogo)</p>
         <p>Janeiro 2020 - Junho 2021</p>
         <p>Coeficiente de Rendimento (CR) - 9.56</p>
@@ -21,7 +21,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
       </HabilityDefault>
 
       <HabilityDefault title="Habilidades Técnicas" icon="🛠️">
-        <div class="w-full flex flex-wrap justify-center sm:justify-start items-stretch">
+        <div class="flex w-full flex-wrap items-stretch justify-center sm:justify-start">
           <v-icon name="si-html5" scale="3.5" title="HTML5" />
           <v-icon name="si-css3" scale="3.5" title="CSS3" />
           <v-icon name="si-javascript" scale="3.5" title="JavaScript" />
@@ -30,6 +30,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
           <v-icon name="si-typescript" scale="3.5" title="TypeScript" />
           <v-icon name="vi-file-type-light-next" scale="3.5" title="NextJS" />
           <v-icon name="si-vuedotjs" scale="3.5" title="VueJS" />
+          <v-icon name="si-nuxtdotjs" scale="3.5" title="Nuxt 3" />
           <v-icon name="gi-pineapple" scale="3.5" title="Pinia" />
           <v-icon name="ri-vuejs-line" scale="3.5" title="Vue Router" />
           <v-icon name="si-vite" scale="3.5" title="Vite" />
@@ -47,25 +48,25 @@ const themeStore: InterfaceThemeStore = useThemeStore()
       </HabilityDefault>
 
       <HabilityDefault title="Experiências Profissionais" icon="💼">
-        <div class="w-full flex flex-col justify-between">
-          <p class="font-medium text-xl italic">Freelancer</p>
+        <div class="flex w-full flex-col justify-between">
+          <p class="text-xl font-medium italic">Freelancer</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
           <p>Outubro 2022 - Até o momento</p>
           <p>Maceió - AL - Brasil</p>
-          <span class="border border-solid border-gray-500 my-5"></span>
-          <p class="font-medium text-xl italic">Hiperlink - Hub de Soluções</p>
+          <span class="my-5 border border-solid border-gray-500"></span>
+          <p class="text-xl font-medium italic">Hiperlink - Hub de Soluções</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
           <p>Maio 2023 - Agosto 2023</p>
           <p>São Paulo - Brasil (Remoto)</p>
-          <span class="border border-solid border-gray-500 my-5"></span>
-          <p class="font-medium text-xl italic">
+          <span class="my-5 border border-solid border-gray-500"></span>
+          <p class="text-xl font-medium italic">
             DPRF - Departamento de Polícia Rodoviária Federal
           </p>
           <p>Suporte Técnico em Informática (Estágio)</p>
           <p>Maio 2019 - Agosto 2021</p>
           <p>Maceió - AL - Brasil</p>
-          <span class="border border-solid border-gray-500 my-5"></span>
-          <p class="font-medium text-xl italic">CONAB - Companhia Nacional de Abastecimento</p>
+          <span class="my-5 border border-solid border-gray-500"></span>
+          <p class="text-xl font-medium italic">CONAB - Companhia Nacional de Abastecimento</p>
           <p>Suporte Técnico em Informática (Estágio)</p>
           <p>Outubro 2017 - Abril 2019</p>
           <p>Maceió - AL - Brasil</p>
@@ -73,18 +74,18 @@ const themeStore: InterfaceThemeStore = useThemeStore()
       </HabilityDefault>
 
       <HabilityDefault title="Idiomas" icon="🔊">
-        <div class="w-full flex flex-col">
-          <div class="flex flex-row items-center sm:justify-start justify-center">
+        <div class="flex w-full flex-col">
+          <div class="flex flex-row items-center justify-center sm:justify-start">
             <v-icon name="fi-br" scale="2" />
             <p class="pl-5">Nativo - Conversação e Escrita</p>
           </div>
 
-          <div class="flex flex-row items-center sm:justify-start justify-center">
+          <div class="flex flex-row items-center justify-center sm:justify-start">
             <v-icon name="fi-um" scale="2" />
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
 
-          <div class="flex flex-row items-center sm:justify-start justify-center">
+          <div class="flex flex-row items-center justify-center sm:justify-start">
             <v-icon name="fi-es" scale="2" />
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
@@ -94,7 +95,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 
     <div v-else class="flex flex-col gap-5">
       <HabilityDefault title="Formação Acadêmica" icon="👨‍🎓">
-        <p class="font-medium text-xl italic">Universidade Estácio de Sá</p>
+        <p class="text-xl font-medium italic">Universidade Estácio de Sá</p>
         <p>Análise e Desenvolvimento de Sistemas (Tecnólogo)</p>
         <p>Janeiro 2020 - Junho 2021</p>
         <p>Coeficiente de Rendimento (CR) - 9.74</p>
@@ -102,7 +103,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
       </HabilityDefault>
 
       <HabilityDefault title="Habilidades Técnicas" icon="🛠️">
-        <div class="w-full flex flex-wrap justify-center sm:justify-start items-stretch">
+        <div class="flex w-full flex-wrap items-stretch justify-center sm:justify-start">
           <v-icon name="si-html5" scale="3.5" title="HTML5" />
           <v-icon name="si-css3" scale="3.5" title="CSS3" />
           <v-icon name="si-javascript" scale="3.5" title="JavaScript" />
@@ -111,6 +112,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
           <v-icon name="si-typescript" scale="3.5" title="TypeScript" />
           <v-icon name="vi-file-type-light-next" scale="3.5" title="NextJS" />
           <v-icon name="si-vuedotjs" scale="3.5" title="VueJS" />
+          <v-icon name="si-nuxtdotjs" scale="3.5" title="Nuxt 3" />
           <v-icon name="gi-pineapple" scale="3.5" title="Pinia" />
           <v-icon name="ri-vuejs-line" scale="3.5" title="Vue Router" />
           <v-icon name="si-vite" scale="3.5" title="Vite" />
@@ -128,25 +130,25 @@ const themeStore: InterfaceThemeStore = useThemeStore()
       </HabilityDefault>
 
       <HabilityDefault title="Experiências Profissionais" icon="💼">
-        <div class="w-full flex flex-col justify-between">
-          <p class="font-medium text-xl italic">Freelancer</p>
+        <div class="flex w-full flex-col justify-between">
+          <p class="text-xl font-medium italic">Freelancer</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
           <p>Outubro 2022 - Até o momento</p>
           <p>Maceió - AL - Brasil</p>
-          <span class="border border-solid border-gray-500 my-5"></span>
-          <p class="font-medium text-xl italic">Hiperlink - Hub de Soluções</p>
+          <span class="my-5 border border-solid border-gray-500"></span>
+          <p class="text-xl font-medium italic">Hiperlink - Hub de Soluções</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
           <p>Maio 2023 - Agosto 2023</p>
           <p>São Paulo - Brasil (Remoto)</p>
-          <span class="border border-solid border-gray-500 my-5"></span>
-          <p class="font-medium text-xl italic">
+          <span class="my-5 border border-solid border-gray-500"></span>
+          <p class="text-xl font-medium italic">
             DPRF - Departamento de Polícia Rodoviária Federal
           </p>
           <p>Suporte Técnico em Informática (Estágio)</p>
           <p>Maio 2019 - Agosto 2021</p>
           <p>Maceió - AL - Brasil</p>
-          <span class="border border-solid border-gray-500 my-5"></span>
-          <p class="font-medium text-xl italic">CONAB - Companhia Nacional de Abastecimento</p>
+          <span class="my-5 border border-solid border-gray-500"></span>
+          <p class="text-xl font-medium italic">CONAB - Companhia Nacional de Abastecimento</p>
           <p>Suporte Técnico em Informática (Estágio)</p>
           <p>Outubro 2017 - Abril 2019</p>
           <p>Maceió - AL - Brasil</p>
@@ -154,18 +156,18 @@ const themeStore: InterfaceThemeStore = useThemeStore()
       </HabilityDefault>
 
       <HabilityDefault title="Idiomas" icon="🔊">
-        <div class="w-full flex flex-col">
-          <div class="flex flex-row items-center sm:justify-start justify-center">
+        <div class="flex w-full flex-col">
+          <div class="flex flex-row items-center justify-center sm:justify-start">
             <v-icon name="fi-br" scale="2" />
             <p class="pl-5">Nativo - Conversação e Escrita</p>
           </div>
 
-          <div class="flex flex-row items-center sm:justify-start justify-center">
+          <div class="flex flex-row items-center justify-center sm:justify-start">
             <v-icon name="fi-um" scale="2" />
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>
 
-          <div class="flex flex-row items-center sm:justify-start justify-center">
+          <div class="flex flex-row items-center justify-center sm:justify-start">
             <v-icon name="fi-es" scale="2" />
             <p class="pl-5">Básico - Conversação e Escrita</p>
           </div>

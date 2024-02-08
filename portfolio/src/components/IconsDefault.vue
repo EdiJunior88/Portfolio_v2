@@ -28,7 +28,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
       rel="noopener noreferrer"
     >
       <button>
-        <div class="icons flex flex-col justify-center items-center text-[10px] sm:text-base gap-2">
+        <div class="icons flex flex-col items-center justify-center gap-2 text-[10px] sm:text-base">
           <slot></slot>
           <span class="font-medium">{{ title }}</span>
         </div>

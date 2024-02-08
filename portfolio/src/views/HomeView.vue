@@ -1,14 +1,15 @@
 <script setup lang="ts">
-import IconsDefault from '@/components/IconsDefault.vue'
 import { useThemeStore } from '@/theme/ThemeChange'
+import type { InterfaceThemeStore } from '@/Interface/Interface'
+import IconsDefault from '@/components/IconsDefault.vue'
 
-const themeStore = useThemeStore()
+const themeStore: InterfaceThemeStore = useThemeStore()
 </script>
 
 <template>
   <div
     :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }"
-    class="flex justify-center items-center flex-wrap gap-x-10 gap-y-5"
+    class="flex flex-wrap items-center justify-center gap-x-10 gap-y-5"
   >
     <IconsDefault title="GitHub" link="https://github.com/EdiJunior88">
       <v-icon name="fa-github-square" scale="2" />

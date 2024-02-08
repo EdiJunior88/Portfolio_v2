@@ -46,6 +46,7 @@ import { SiVuedotjs } from 'oh-vue-icons/icons/si'
 import { SiFortinet } from 'oh-vue-icons/icons/si'
 import { SiReactquery } from 'oh-vue-icons/icons'
 import { SiCsswizardry } from 'oh-vue-icons/icons'
+import { SiNuxtdotjs } from 'oh-vue-icons/icons'
 import { ViFileTypeLightNext } from 'oh-vue-icons/icons/vi'
 
 addIcons(
@@ -88,6 +89,7 @@ addIcons(
   SiFortinet,
   SiReactquery,
   SiCsswizardry,
+  SiNuxtdotjs,
   ViFileTypeLightNext,
   FiBr,
   FiUm,

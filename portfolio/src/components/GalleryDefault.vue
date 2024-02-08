@@ -23,7 +23,7 @@ const themeStore: InterfaceThemeStore = useThemeStore()
     <Splide v-bind="$attrs" :options="{ rewind: true }" aria-label="Galeria de Projetos">
       <SplideSlide v-for="image in images" :key="image.src">
         <a :href="image.href" target="_blank" rel="noopener noreferrer">
-          <div class="rounded-lg flex flex-col items-center p-3 gap-2">
+          <div class="flex flex-col items-center gap-2 rounded-lg p-3">
             <slot></slot>
             <p class="font-medium">{{ image.title }}</p>
           </div>

@@ -20,8 +20,29 @@ import NinjaList from '@/assets/Image/ninja-list.webp'
 import TodoList from '@/assets/Image/todo-list.webp'
 import MKSSistemas from '@/assets/Image/MKS-Sistemas.webp'
 import CantinhoDoBloguinho from '@/assets/Image/Cantinho-do-Bloguinho.webp'
+import IgmaFrontEnd from '@/assets/Image/Igma-Front-End.webp'
+import CasaDoCodigoVueJS from '@/assets/Image/Casa-do-Codigo-VueJS.webp'
+import PrevisaoDoTempo from '@/assets/Image/Previsao-do-Tempo.webp'
 
 const images = [
+  {
+    src: IgmaFrontEnd,
+    alt: 'IgmaFrontEnd',
+    href: 'https://igma-teste-front-end.vercel.app/',
+    title: 'Igma Teste Front-End'
+  },
+  {
+    src: PrevisaoDoTempo,
+    alt: 'PrevisaoDoTempo',
+    href: 'https://previsao-do-tempo-nuxt.vercel.app/',
+    title: 'Previsao do Tempo'
+  },
+  {
+    src: CasaDoCodigoVueJS,
+    alt: 'CasaDoCodigoVueJS',
+    href: 'https://casa-do-codigo-vuejs.netlify.app/',
+    title: 'Casa do Codigo VueJS'
+  },
   {
     src: CantinhoDoBloguinho,
     alt: 'CantinhoDoBloguinho',
