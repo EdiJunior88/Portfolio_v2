@@ -33,7 +33,7 @@
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.21.1",
     "npm-run-all2": "^6.1.2",
-    "postcss": "^8.4.33",
+    "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.0",
