@@ -49,11 +49,6 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 
       <HabilityDefault title="Experiências Profissionais" icon="💼">
         <div class="flex w-full flex-col justify-between">
-          <p class="text-xl font-medium italic">Freelancer</p>
-          <p>Desenvolvedor de Software (Front-End Web)</p>
-          <p>Outubro 2022 - Até o momento</p>
-          <p>Maceió - AL - Brasil</p>
-          <span class="my-5 border border-solid border-gray-500"></span>
           <p class="text-xl font-medium italic">Hiperlink - Hub de Soluções</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
           <p>Maio 2023 - Agosto 2023</p>
@@ -131,11 +126,6 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 
       <HabilityDefault title="Experiências Profissionais" icon="💼">
         <div class="flex w-full flex-col justify-between">
-          <p class="text-xl font-medium italic">Freelancer</p>
-          <p>Desenvolvedor de Software (Front-End Web)</p>
-          <p>Outubro 2022 - Até o momento</p>
-          <p>Maceió - AL - Brasil</p>
-          <span class="my-5 border border-solid border-gray-500"></span>
           <p class="text-xl font-medium italic">Hiperlink - Hub de Soluções</p>
           <p>Desenvolvedor de Software (Front-End Web)</p>
           <p>Maio 2023 - Agosto 2023</p>
