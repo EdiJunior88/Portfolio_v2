@@ -20,7 +20,11 @@ const themeStore: InterfaceThemeStore = useThemeStore()
 
 <template>
   <div :class="{ Switch: themeStore.Switch, WiiU: !themeStore.Switch }">
-    <Splide v-bind="$attrs" :options="{ rewind: true }" aria-label="Galeria de Projetos">
+    <Splide
+      v-bind="$attrs"
+      :options="{ rewind: true, lazyLoad: 'nearby', pagination: false }"
+      aria-label="Galeria de Projetos"
+    >
       <SplideSlide v-for="image in images" :key="image.src">
         <a :href="image.href" target="_blank" rel="noopener noreferrer">
           <div class="flex flex-col items-center gap-2 rounded-lg p-3">
@@ -66,5 +70,17 @@ a {
 
 img {
   opacity: 0.5;
+}
+
+.splide__progress {
+  height: 50px;
+  background: #ccc;
+}
+
+.splide__progress__bar {
+  background: greenyellow;
+  height: 2px;
+  transition: width 400ms ease;
+  width: 0;
 }
 </style>

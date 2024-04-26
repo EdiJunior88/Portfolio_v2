@@ -5,7 +5,6 @@ import GalleryDefault from '@/components/GalleryDefault.vue'
 import AluraTube from '@/assets/Image/aluratubev2.webp'
 import Bikcraft from '@/assets/Image/bikcraft.webp'
 import ConsultaQuadrinhos from '@/assets/Image/consulta-quadrinhos.webp'
-import ConsumoEnergia from '@/assets/Image/consumo-energia.webp'
 import ControleFinanceiro from '@/assets/Image/controle-financeiro.webp'
 import DogsOrigamid from '@/assets/Image/dogs-origamid.webp'
 import EnvioDinheiro from '@/assets/Image/envio-dinheiro.webp'
@@ -15,16 +14,28 @@ import ExemploTailwindcss from '@/assets/Image/exemplo-tailwindcss.webp'
 import FavoritarRepositorios from '@/assets/Image/favoritar-repositorios.webp'
 import appgithub from '@/assets/Image/appgithub.webp'
 import ListaTarefas from '@/assets/Image/lista-tarefas.webp'
-import Musicdot from '@/assets/Image/musicdot.webp'
 import NinjaList from '@/assets/Image/ninja-list.webp'
-import TodoList from '@/assets/Image/todo-list.webp'
 import MKSSistemas from '@/assets/Image/MKS-Sistemas.webp'
 import CantinhoDoBloguinho from '@/assets/Image/Cantinho-do-Bloguinho.webp'
-import IgmaFrontEnd from '@/assets/Image/Igma-Front-End.webp'
 import CasaDoCodigoVueJS from '@/assets/Image/Casa-do-Codigo-VueJS.webp'
 import PrevisaoDoTempo from '@/assets/Image/Previsao-do-Tempo.webp'
+import IgmaFrontEnd from '@/assets/Image/Igma-Front-End.webp'
+import MiniShoppingReact from '@/assets/Image/Mini-Shopping-React.webp'
+import BlogAstro from '@/assets/Image/Blog-Astro.webp'
 
 const images = [
+  {
+    src: BlogAstro,
+    alt: 'BlogAstro',
+    href: 'https://astro-documentacao.onrender.com/',
+    title: 'Blog - Astro'
+  },
+  {
+    src: MiniShoppingReact,
+    alt: 'MiniShoppingReact',
+    href: 'https://mini-shopping-react-nextjs.vercel.app/',
+    title: 'Mini Shopping React + NextJS 14'
+  },
   {
     src: IgmaFrontEnd,
     alt: 'IgmaFrontEnd',
@@ -40,7 +51,7 @@ const images = [
   {
     src: CasaDoCodigoVueJS,
     alt: 'CasaDoCodigoVueJS',
-    href: 'https://casa-do-codigo-vuejs.netlify.app/',
+    href: 'https://edijunior88-casadocodigo-vuejs.netlify.app/',
     title: 'Casa do Codigo VueJS'
   },
   {
@@ -58,26 +69,20 @@ const images = [
   {
     src: AluraTube,
     alt: 'AluraTube',
-    href: 'https://aluratube-v2.netlify.app/',
+    href: 'https://aluratube-v2.vercel.app/',
     title: 'AluraTube v2'
   },
   {
     src: Bikcraft,
     alt: 'Bikcraft',
-    href: 'https://bikcraft-edijunior88.netlify.app/',
+    href: 'https://origamid-html-e-css-para-iniciantes.onrender.com/',
     title: 'Bikcraft'
   },
   {
     src: ConsultaQuadrinhos,
     alt: 'ConsultaQuadrinhos',
-    href: 'https://consultaquadrinhosv2.netlify.app/',
+    href: 'https://edijunior88-consultaquadrinhosv2.netlify.app/',
     title: 'Consulta Quadrinhos v2'
-  },
-  {
-    src: ConsumoEnergia,
-    alt: 'ConsumoEnergia',
-    href: 'https://edijunior88.github.io/Projeto_Verificar_KWh/',
-    title: 'Consumo Energia'
   },
   {
     src: ControleFinanceiro,
@@ -88,19 +93,19 @@ const images = [
   {
     src: DogsOrigamid,
     alt: 'DogsOrigamid',
-    href: 'https://dogsorigamid-edijunior88.netlify.app/',
+    href: 'https://origamid-react-completo.onrender.com/',
     title: 'Dogs'
   },
   {
     src: EnvioDinheiro,
     alt: 'EnvioDinheiro',
-    href: 'https://newtab-academy-react.netlify.app/',
+    href: 'https://edijunior88-newtab-react.netlify.app/',
     title: 'App Envio de Dinheiro'
   },
   {
     src: ExemploPortfolio,
     alt: 'ExemploPortfolio',
-    href: 'https://origamid-html-css-portfolio.netlify.app/',
+    href: 'https://edijunior88-origamid-portfolio.netlify.app/',
     title: 'Portfolio - Origamid'
   },
   {
@@ -124,7 +129,7 @@ const images = [
   {
     src: appgithub,
     alt: 'appgithub',
-    href: 'https://githubfinder-edijunior88.netlify.app/',
+    href: 'https://edijunior88-githubfinder.netlify.app/',
     title: 'Github Finder'
   },
   {
@@ -134,22 +139,10 @@ const images = [
     title: 'Lista de Tarefas'
   },
   {
-    src: Musicdot,
-    alt: 'Musicdot',
-    href: 'https://edijunior88.github.io/Caelum_HTML_CSS_JavaScript/',
-    title: 'Musicdot'
-  },
-  {
     src: NinjaList,
     alt: 'NinjaList',
-    href: 'https://hackathon-ninjalist.netlify.app/',
+    href: 'https://edijunior88-ninjalist.netlify.app/',
     title: 'Ninja List'
-  },
-  {
-    src: TodoList,
-    alt: 'TodoList',
-    href: 'https://baltaio-mytodolist.netlify.app/',
-    title: 'Todo List'
   }
 ]
 
