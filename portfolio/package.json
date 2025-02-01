@@ -23,7 +23,7 @@
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^14.1.4",
-    "@vue/tsconfig": "^0.5.1",
+    "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.10.0",
     "eslint-plugin-vue": "^9.25.0",
