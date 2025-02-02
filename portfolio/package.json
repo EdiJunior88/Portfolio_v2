@@ -20,7 +20,7 @@
     "@tsconfig/node18": "^18.2.4",
     "@types/node": "^22.10.3",
     "@vitejs/plugin-vue": "^5.2.1",
-    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.1.4",
     "@vue/tsconfig": "^0.7.0",
